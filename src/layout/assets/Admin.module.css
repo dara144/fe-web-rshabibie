@@ -1,0 +1,46 @@
+.wrapper {
+   width: 80vw;
+}
+
+.sidebar{
+    width: 20vw;
+    height: 109vh;
+    overflow: clip;
+    background-color: rgb(58,83,180);
+    background: linear-gradient(90deg, rgba(58,83,180,1) 0%, rgba(58,122,180,1) 100%);;
+}
+
+.nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2vw;
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.button{
+    background-color: rgb(58,83,180);
+    background: linear-gradient(90deg, rgba(58,83,180,1) 0%, rgba(58,122,180,1) 100%);;
+    height: 38px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.span{
+    font-size: 15px;
+    margin-left: 4vh;
+    font-weight: 400;
+}
+
+.accordion{
+    font-size: 15px;
+    margin-left: 2vh;
+    font-weight: 100;
+}

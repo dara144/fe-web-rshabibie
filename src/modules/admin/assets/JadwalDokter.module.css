@@ -1,0 +1,22 @@
+.bg{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.wrapper{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 80vh;
+}
+
+.h1{
+    font-size : 1.7vw;
+    font-weight: medium;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.h2{
+    color: #3f3f3f;
+    font-weight: 600;
+}

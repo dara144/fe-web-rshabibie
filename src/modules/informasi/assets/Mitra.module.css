@@ -1,0 +1,34 @@
+.wrapper {
+    width: 85vw;
+    margin: auto;
+    margin-left: 7vw;
+    margin-bottom: 2vh;
+}
+
+.h1{
+    font-size : 2vw;
+    margin-left: 7vw;
+    font-style: italic;
+    font-weight: medium;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    color: #3f3f3f;
+}
+
+/* Responsive */
+
+/* ukuran tablet */
+@media(max-width: 768px) {
+    .h1{
+        font-size: 4vw;
+    }
+
+}
+
+/* ukuran mobile */
+@media(max-width: 567px) {
+    .h1{
+        font-size: 5vw;
+    }
+
+}

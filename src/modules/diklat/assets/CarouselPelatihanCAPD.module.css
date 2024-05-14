@@ -1,0 +1,47 @@
+.image {
+  height: 85vh;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* Responsive */
+
+/* ukuran tablet */
+@media (max-width: 820px) {
+  .h1 {
+    font-size: 4vw;
+  }
+  .image {
+    width: 200vh;
+    height: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+}
+
+/* ukuran mobile */
+@media (max-width: 567px) {
+  .h1 {
+    font-size: 5vw;
+  }
+  .image {
+    width: 200vh;
+    height: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+  .container {
+    margin-top: 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 100;
+    margin-right: 5vh;
+  }
+}

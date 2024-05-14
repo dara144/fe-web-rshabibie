@@ -1,0 +1,18 @@
+.wrapper {
+    margin: auto;    
+    margin-bottom: 5vh;
+}
+
+/* ukuran tablet */
+@media(max-width: 820px) {
+    .wrapper{
+        margin-bottom: 3vh;
+    }
+}
+
+/* ukuran mobile */
+@media(max-width: 567px) {
+    .wrapper{
+        margin-bottom: 3vh;
+    }
+}

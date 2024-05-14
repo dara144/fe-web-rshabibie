@@ -1,0 +1,50 @@
+.container{
+    background-color: #F8F8FA;
+}
+
+.wrapper {
+    margin-left: 7vw;
+    margin-bottom: 2vh;
+    width: 85vw;
+}
+
+.h1{
+    font-size : 2.5vw;
+    text-align: center;
+    font-style: italic;
+    font-weight: medium;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    color: #3f3f3f;
+}
+
+/* animation fade in and out */
+.animateShowImage{
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.animateHiddenImage{
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease-in-out;
+}
+
+/*  */
+
+/* ukuran tablet */
+@media(max-width: 820px) {
+    .h1{
+        font-size: 4vw;
+    }
+
+}
+
+/* ukuran mobile */
+@media(max-width: 567px) {
+    .h1{
+        font-size: 5vw;
+    }
+
+}

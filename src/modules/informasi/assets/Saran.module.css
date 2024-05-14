@@ -1,0 +1,62 @@
+.wrapper {
+    margin: auto;
+    margin-left: 7vw;
+    margin-bottom: 2vh;
+}
+
+.h1{
+    font-size : 2vw;
+    margin-left: 7vw;
+    font-style: italic;
+    font-weight: medium;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+    color: #3f3f3f;
+}
+
+.h2{
+   position: relative;
+   color: #868686;
+   font-weight: 100;
+  }
+
+.label{
+    margin-bottom: 8vh;
+}
+
+.textInput{
+    width: 20vw; 
+    margin-bottom: 4vh;     
+}
+
+/* ukuran tablet */
+@media(max-width: 768px) {
+    .h1{
+        font-size: 4vw;
+    }
+
+}
+
+/* ukuran mobile */
+@media(max-width: 567px) {
+    .h1{
+        font-size: 4vw;
+    }
+
+}
+
+/* ukuran tablet */
+@media(max-width: 768px) {
+    .h1{
+        font-size: 4vw;
+    }
+
+}
+
+/* ukuran mobile */
+@media(max-width: 567px) {
+    .h1{
+        font-size: 4vw;
+    }
+
+}

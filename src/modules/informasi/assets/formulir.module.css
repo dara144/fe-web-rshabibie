@@ -1,0 +1,56 @@
+.wrapper {
+    width: 85vw;
+    margin: auto;
+    margin-left: 7vw;
+    margin-bottom: 2vh;
+}
+
+.h1{
+    font-size : 2vw;
+    font-style: italic;
+    font-weight: medium;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    color: #3f3f3f;
+}
+
+.p{
+    font-size : 1vw;
+    color: #0891B2;
+}
+
+.container{
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.grid{
+    place-content: center;
+    gap: 3.5rem;
+}
+
+/* ukuran tablet */
+@media(max-width: 820px) {
+    .h1{
+        font-size: 4vw;
+    }
+    .grid{
+        place-content: center;
+        gap: 0;
+    }
+}
+
+/* ukuran mobile */
+@media(max-width: 567px) {
+    .h1{
+        font-size: 5vw;
+    }
+    .container{
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+    .grid{
+        place-content: center;
+        gap: 0;
+    }
+}

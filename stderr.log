@@ -1,0 +1,569 @@
+FetchError: request to http://localhost:3005/public/images/maleDoc-1666758548030.jpg failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/maleDoc-1667179703730.jpg failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Melita%20Hendriani%20(2)-1667444250544.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/maleDoc-1666758548030.jpg failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/maleDoc-1666758548030.jpg failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/maleDoc-1667179703730.jpg failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/maleDoc-1667179703730.jpg failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/femaleDoc-1666253840972.jpg failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://localhost:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 127.0.0.1:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to http://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/femaleDoc-1666253542890.jpg failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+Invariant: failed to load static page {
+  "page": "/dokter/Dokter",
+  "url": "/dokter/Dokter",
+  "initUrl": "http://localhost:8080/dokter/Dokter"
+}
+MissingStaticPage [Error]: Failed to load static file for page: /dokter/Dokter ENOENT: no such file or directory, open '/home/rshx4468/node/rskg-website-fe/.next/server/pages/dokter/Dokter.html'
+    at /home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/require.js:55:19
+    at async Object.loadComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/load-components.js:61:26)
+    at async NextNodeServer.findPageComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:555:36)
+    at async NextNodeServer.renderPageComponent (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:891:24)
+    at async NextNodeServer.renderToResponse (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:920:32)
+    at async NextNodeServer.pipe (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:369:25)
+    at async Object.fn (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:743:21)
+    at async Router.execute (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/router.js:247:36)
+    at async NextNodeServer.run (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:347:29)
+    at async NextNodeServer.handleRequest (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:285:20)
+Invariant: failed to load static page {
+  "page": "/dokter/Dokter",
+  "url": "/dokter/Dokter",
+  "initUrl": "http://localhost:8080/dokter/Dokter"
+}
+MissingStaticPage [Error]: Failed to load static file for page: /dokter/Dokter ENOENT: no such file or directory, open '/home/rshx4468/node/rskg-website-fe/.next/server/pages/dokter/Dokter.html'
+    at /home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/require.js:55:19
+    at async Object.loadComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/load-components.js:61:26)
+    at async NextNodeServer.findPageComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:555:36)
+    at async NextNodeServer.renderPageComponent (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:891:24)
+    at async NextNodeServer.renderToResponse (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:920:32)
+    at async NextNodeServer.pipe (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:369:25)
+    at async Object.fn (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:743:21)
+    at async Router.execute (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/router.js:247:36)
+    at async NextNodeServer.run (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:347:29)
+    at async NextNodeServer.handleRequest (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:285:20)
+Invariant: failed to load static page {
+  "page": "/dokter/Dokter",
+  "url": "/dokter/Dokter",
+  "initUrl": "http://localhost:8080/dokter/Dokter"
+}
+MissingStaticPage [Error]: Failed to load static file for page: /dokter/Dokter ENOENT: no such file or directory, open '/home/rshx4468/node/rskg-website-fe/.next/server/pages/dokter/Dokter.html'
+    at /home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/require.js:55:19
+    at async Object.loadComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/load-components.js:61:26)
+    at async NextNodeServer.findPageComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:555:36)
+    at async NextNodeServer.renderPageComponent (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:891:24)
+    at async NextNodeServer.renderToResponse (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:920:32)
+    at async NextNodeServer.pipe (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:369:25)
+    at async Object.fn (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:743:21)
+    at async Router.execute (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/router.js:247:36)
+    at async NextNodeServer.run (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:347:29)
+    at async NextNodeServer.handleRequest (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:285:20)
+Invariant: failed to load static page {
+  "page": "/dokter/Dokter",
+  "url": "/dokter/Dokter",
+  "initUrl": "http://localhost:8080/dokter/Dokter"
+}
+MissingStaticPage [Error]: Failed to load static file for page: /dokter/Dokter ENOENT: no such file or directory, open '/home/rshx4468/node/rskg-website-fe/.next/server/pages/dokter/Dokter.html'
+    at /home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/require.js:55:19
+    at async Object.loadComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/load-components.js:61:26)
+    at async NextNodeServer.findPageComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:555:36)
+    at async NextNodeServer.renderPageComponent (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:891:24)
+    at async NextNodeServer.renderToResponse (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:920:32)
+    at async NextNodeServer.pipe (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:369:25)
+    at async Object.fn (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:743:21)
+    at async Router.execute (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/router.js:247:36)
+    at async NextNodeServer.run (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:347:29)
+    at async NextNodeServer.handleRequest (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:285:20)
+Invariant: failed to load static page {
+  "page": "/dokter/Dokter",
+  "url": "/dokter/Dokter",
+  "initUrl": "http://localhost:8080/dokter/Dokter"
+}
+MissingStaticPage [Error]: Failed to load static file for page: /dokter/Dokter ENOENT: no such file or directory, open '/home/rshx4468/node/rskg-website-fe/.next/server/pages/dokter/Dokter.html'
+    at /home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/require.js:55:19
+    at async Object.loadComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/load-components.js:61:26)
+    at async NextNodeServer.findPageComponents (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:555:36)
+    at async NextNodeServer.renderPageComponent (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:891:24)
+    at async NextNodeServer.renderToResponse (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:920:32)
+    at async NextNodeServer.pipe (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:369:25)
+    at async Object.fn (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/next-server.js:743:21)
+    at async Router.execute (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/router.js:247:36)
+    at async NextNodeServer.run (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:347:29)
+    at async NextNodeServer.handleRequest (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/server/base-server.js:285:20)
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Nia%20Sylviani%20(2)-1667444357049.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+
+(process:2648813): GLib-GObject-CRITICAL **: 14:31:37.067: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Esther%20Sylviani%20Sutedjo%20(2)-1667444458053.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+FetchError: request to https://192.168.4.29:3005/public/images/dr.%20Irene%20Ranny%20Kristya%20N%20(2)-1667439544840.png failed, reason: connect ECONNREFUSED 192.168.4.29:3005
+    at ClientRequest.<anonymous> (/home/rshx4468/nodevenv/node/rskg-website-fe/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:65756)
+    at ClientRequest.emit (node:events:513:28)
+    at TLSSocket.socketErrorListener (node:_http_client:481:9)
+    at TLSSocket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  type: 'system',
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED'
+}
+
+(process:2652220): GLib-GObject-CRITICAL **: 01:20:21.417: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3125124): GLib-GObject-CRITICAL **: 01:21:31.439: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3232548): GLib-GObject-CRITICAL **: 10:46:03.740: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3296138): GLib-GObject-CRITICAL **: 16:49:59.018: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2248354): GLib-GObject-CRITICAL **: 16:53:19.347: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1444012): GLib-GObject-CRITICAL **: 20:55:37.719: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1454450): GLib-GObject-CRITICAL **: 20:58:04.573: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3132779): GLib-GObject-CRITICAL **: 19:37:14.644: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:4105505): GLib-GObject-CRITICAL **: 16:51:51.330: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:788268): GLib-GObject-CRITICAL **: 21:47:07.504: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1743570): GLib-GObject-CRITICAL **: 22:59:18.217: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2392473): GLib-GObject-CRITICAL **: 16:09:35.497: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:733562): GLib-GObject-CRITICAL **: 20:24:03.535: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:654057): GLib-GObject-CRITICAL **: 15:19:09.864: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2287374): GLib-GObject-CRITICAL **: 22:42:46.039: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2871287): GLib-GObject-CRITICAL **: 03:25:35.169: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2873781): GLib-GObject-CRITICAL **: 03:25:51.326: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2897270): GLib-GObject-CRITICAL **: 08:35:01.713: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2613116): GLib-GObject-CRITICAL **: 13:33:26.286: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3182927): GLib-GObject-CRITICAL **: 13:58:15.284: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:589235): GLib-GObject-CRITICAL **: 20:04:13.183: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:589617): GLib-GObject-CRITICAL **: 20:04:15.279: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:606043): GLib-GObject-CRITICAL **: 07:22:30.609: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:852127): GLib-GObject-CRITICAL **: 10:30:11.964: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1937705): GLib-GObject-CRITICAL **: 14:07:40.997: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3806259): GLib-GObject-CRITICAL **: 17:24:53.064: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3841057): GLib-GObject-CRITICAL **: 18:47:18.618: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3946855): GLib-GObject-CRITICAL **: 19:37:52.335: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2449986): GLib-GObject-CRITICAL **: 22:43:59.244: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2775799): GLib-GObject-CRITICAL **: 02:50:09.732: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:360212): GLib-GObject-CRITICAL **: 06:37:56.384: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1017780): GLib-GObject-CRITICAL **: 06:38:02.057: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3458309): GLib-GObject-CRITICAL **: 16:54:59.700: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3515587): GLib-GObject-CRITICAL **: 16:55:05.610: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3646335): GLib-GObject-CRITICAL **: 17:03:42.010: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: line 9: /activate: No such file or directory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: line 10: /set_env_vars.py: No such file or directory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: line 12: /usr/bin/node: No such file or directory
+
+(process:2684801): GLib-GObject-CRITICAL **: 15:14:24.299: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3496440): GLib-GObject-CRITICAL **: 15:34:18.025: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3501215): GLib-GObject-CRITICAL **: 15:34:27.312: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:722328): GLib-GObject-CRITICAL **: 15:35:04.736: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:3192221): GLib-GObject-CRITICAL **: 09:47:56.969: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1663303): GLib-GObject-CRITICAL **: 11:53:04.528: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1664199): GLib-GObject-CRITICAL **: 11:53:10.361: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:1664442): GLib-GObject-CRITICAL **: 12:17:27.918: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(process:2890814): GLib-GObject-CRITICAL **: 19:27:10.802: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory
+/home/rshx4468/nodevenv/node/rskg-website-fe/16/bin/node: fork: Cannot allocate memory

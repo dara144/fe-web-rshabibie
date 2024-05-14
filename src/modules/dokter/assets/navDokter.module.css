@@ -1,0 +1,22 @@
+.wrapper {
+  width: 85vw;
+  margin: auto;
+  margin-left: 7vw;
+  margin-bottom: 2vh;
+}
+
+.h1{
+  font-size : 2vw;
+  margin-left: 7vw;
+  font-style: italic;
+  font-weight: medium;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  color: #3f3f3f;
+}
+
+.h2{
+ position: relative;
+ color: #3f3f3f;
+ font-weight: 600;
+}

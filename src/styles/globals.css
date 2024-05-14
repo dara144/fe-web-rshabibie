@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+}
+
+@font-face {
+  src: url(/fonts/BAHNSCHRIFT.TTF);
+  font-family: 'bahnschrift';
+  /* font-family: 'ModernSans';
+  src: url(/fonts/ModernSans-Light.otf) format('opentype'); */
+  /* src: url(/fonts/Oranienbaum.ttf) format('truetype');
+  font-family: 'Oranienbaum'; */
+  src: url(/fonts/AverageSans-Regular.ttf) format('truetype');
+  font-family: 'Average Sans';
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'bahnschrift';
+  scrollbar-width: thin;
+  height: 100%;
+}
+/* ::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+} */
+* {
+  /* -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; */
+  box-sizing: border-box;
+}
+
+#scrollpath {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 1%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+}
+#progressbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 1%;
+  background: linear-gradient(to top, #1E90FF 0%, #91cedddd 100%);
+  z-index: 11;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  /* animation: animatescroll 1s linear infinite; */
+}
+#progressbar::after,
+#progressbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #1E90FF 0%, #91cedddd 100%);
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  filter: blur(10px);
+}
+
+@keyframes animatescroll {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,91 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  height: 30px;
+  font-size: medium;
+  color: hsl(var(--p));
+  align-items: center;
+  padding: 0 30px;
+  background-color: hsl(var(--b2));
+  border-bottom: 1px solid hsl(var(--b3));
+}
+
+.header x-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  color: #1E90FF;
+}
+.header svg {
+  position: relative;
+  top: 1px;
+}
+.header span {
+  font-weight: 300;
+}
+.header > hr {
+  @apply h-4 border-l border-base-content;
+}
+.container {
+  @apply mx-auto flex items-center border border-base-300 bg-base-100 p-2 text-sm md:text-base border-b-0 shadow-lg;
+  /* border-bottom: 7px solid hsl(var(--p)); */
+}
+.container x-logo {
+  flex-grow: 0.8;
+  margin-left: 3vw;
+}
+.nav {
+  @apply relative flex flex-wrap justify-center gap-10;
+  font-size: 1.3vw;
+  font-weight: 400;
+
+  /* .item { */
+  & :global(.mantine-Menu-item) {
+    @apply leading-4 transition-all focus-visible:outline-none;
+    &:hover {
+      @apply bg-[#53A8FB] text-white;
+    }
+  }
+}
+
+.li{
+  margin-bottom: 1.5rem;
+  font-size: larger;
+}
+
+/* .nav .active {
+  @apply text-primary;
+}
+.nav Menu {
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+  align-items: center;
+} */
+
+.tabs :global(.mantine-Tabs-tabsList) {
+  @apply flex min-w-max flex-col flex-wrap gap-2;
+}
+.tabs :global(.mantine-Tabs-tabControl) {
+  @apply p-2;
+}
+@media (max-width: 768px) {
+  .nav {
+    @apply invisible h-0;
+  }
+  .header x-contact {
+    font-size: small;
+  }
+  .container x-logo {
+    flex-grow: 1;
+  }
+}
+
+/* ukuran tablet */
+@media(max-width: 820px) {
+  .li{
+    margin-bottom: 1.5rem;
+    font-size: larger;
+  }
+}
