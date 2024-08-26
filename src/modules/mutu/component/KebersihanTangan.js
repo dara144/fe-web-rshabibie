@@ -1,98 +1,11 @@
 import { Grid, ScrollArea, Text } from '@mantine/core';
-import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import style from '../assets/IndikatorMutu.module.css'
 import Border from '@component/border'
 import Link from './Link'
+import Image from 'next/image';
+import imgKebersihanTangan from '/public/KebersihanTangan.jpg'
+import imgKebersihanTangan2 from '/public/KebersihanTangan2.jpg'
 export default function KebersihanTangan() {
-  const data = [
-    {
-      "name": "Juli",
-      "Target": 85,
-      "Hasil": 75.06
-    },
-    {
-      "name": "Agustus",
-      "Target": 85,
-      "Hasil": 77.46
-    },
-    {
-      "name": "September",
-      "Target": 85
-    }
-  ]
-  const value = [
-    {
-      "name": "1",
-      "Target": 85,
-      "Hasil": 72.42
-    },
-    {
-      "name": "2",
-      "Target": 85,
-      "Hasil": 80.60
-    },
-    {
-      "name": "3",
-      "Target": 85,
-      "Hasil": 77.88
-
-    },
-    {
-      "name": "4",
-      "Target": 85,
-      "Hasil": 70.73
-    },
-    {
-      "name": "5",
-      "Target": 85,
-      "Hasil": 74.20
-    },
-    {
-      "name": "6",
-      "Target": 85,
-      "Hasil": 78.97
-    },
-    {
-      "name": "7",
-      "Target": 85,
-      "Hasil": 81.17
-    },
-    {
-      "name": "8",
-      "Target": 85,
-      "Hasil": 78.60
-    },
-    {
-      "name": "9",
-      "Target": 85,
-      "Hasil": 71.17
-    },
-    {
-      "name": "10",
-      "Target": 85,
-      "Hasil": 81.88
-    },
-    {
-      "name": "11",
-      "Target": 85
-    },
-    {
-      "name": "12",
-      "Target": 85
-    },
-    {
-      "name": "13",
-      "Target": 85
-    },
-    {
-      "name": "14",
-      "Target": 85
-    },
-    {
-      "name": "15",
-      "Target": 85
-    }
-  ]
   return (
     <>
       <Text className={style.h1}
@@ -101,110 +14,19 @@ export default function KebersihanTangan() {
         <Border />
         <Grid>
           <Grid.Col md={3} lg={3}>
-            <ScrollArea style={{
-              height: '100vh',
-              overflow: 'clip',
-              marginTop: '1.25rem'
-            }}
-              type="always"
-            >
-              <Link />
-            </ScrollArea>
+            <Link />
           </Grid.Col>
           <Grid.Col md={9} lg={9}>
-            <label className='text-3xl font-bold'>Kepatuhan <b className='text-[#1E90FF]'>Kebersihan Tangan</b>
-            </label>
-            <br />
-            <label className='text-3xl font-bold'>
-              Juli-September 2022
-            </label>
-
+            <Image
+              src={imgKebersihanTangan}
+              blurDataURL={imgKebersihanTangan}
+              alt='Kepatuhan Kebersihan Tangan' />
             <br />
             <br />
-
-            <ResponsiveContainer width="65%" height="35%">
-              <BarChart
-                width={500}
-                height={300}
-                data={data}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis tickFormatter={(tick) => {
-                  return `${tick}%`
-                }} />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="Target" fill="#53A8FB" />
-                <Bar dataKey="Hasil" fill="#82ca9d" />
-              </BarChart>
-            </ResponsiveContainer>
-
-            {/* <BarChart width={730} height={250} data={data}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />
-              <YAxis />
-              <Tooltip />
-              <Legend />
-              <Bar dataKey="Target" fill="#06B6D4" />
-              <Bar dataKey="Hasil" fill="#82ca9d" />
-            </BarChart> */}
-
-            <br />
-            <br />
-            <br />
-
-            <label className='text-3xl font-bold'>Kepatuhan <b className='text-[#1E90FF]'>Kebersihan Tangan</b>
-            </label>
-            <br />
-            <label className='text-3xl font-bold'>Juli-September 2022
-            </label>
-
-            <br />
-            <br />
-
-            <ResponsiveContainer width="65%" height="35%">
-              <LineChart
-                width={500}
-                height={300}
-                data={value}
-                margin={{
-                  top: 5,
-                  right: 70,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis tickFormatter={(tick) => {
-                return `${tick}%`
-              }} />
-                <Tooltip />
-                <Legend />
-                <Line type="monotone" dataKey="Target" stroke="#53A8FB" />
-                <Line type="monotone" dataKey="Hasil" stroke="#82ca9d" activeDot={{ r: 8 }} />
-              </LineChart>
-            </ResponsiveContainer>
-
-            {/* <LineChart width={730} height={250} data={value}
-              margin={{ top: 5, right: 70, left: 20, bottom: 5 }}>
-              <CartesianGrid strokeDasharray="2 2" />
-              <XAxis dataKey="name" />
-              <YAxis tickFormatter={(tick) => {
-                return `${tick}%`
-              }} />
-              <Tooltip />
-              <Legend />
-              <Line type="monotone" dataKey="Target" stroke="#1E90FF" />
-              <Line type="monotone" dataKey="Hasil" stroke="#82ca9d" />
-            </LineChart> */}
+            <Image
+              src={imgKebersihanTangan2}
+              blurDataURL={imgKebersihanTangan2}
+              alt='Kepatuhan Kebersihan Tangan' />
           </Grid.Col>
         </Grid>
       </main>

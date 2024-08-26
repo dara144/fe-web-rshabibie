@@ -8,7 +8,7 @@ export default function RisikoJatuhPage() {
       <Head>
         <title>Indikator Kepatuhan Upaya Pencegahan Risiko Pasien Jatuh</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <RisikoJatuh />
     </>

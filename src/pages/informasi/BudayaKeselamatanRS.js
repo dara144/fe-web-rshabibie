@@ -8,7 +8,7 @@ export default function BudayaKeselamatanRSPage() {
       <Head>
         <title>Budaya Keselamatan Rumah Sakit</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <BudayaKeselamatanRS />
     </>

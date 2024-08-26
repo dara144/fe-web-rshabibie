@@ -8,7 +8,7 @@ export default function EdukasiCuciTanganPage() {
       <Head>
         <title>Pentingnya Cuci Tangan Dengan Sabun Dan Cara Tepat melakukannya</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <EdukasiCuciTangan />
     </>

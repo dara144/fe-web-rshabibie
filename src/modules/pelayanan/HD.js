@@ -1,4 +1,4 @@
-import { Grid, List, Modal, Text } from '@mantine/core'
+import { Card, Grid, Group, List, Modal, Text } from '@mantine/core'
 import style from './assets/HD.module.css'
 import Border from '@component/border'
 import Image from 'next/future/image'
@@ -7,13 +7,38 @@ import { useState } from 'react'
 import border from './assets/image/border.png'
 import PHD from './assets/image/PHD.jpg'
 import PHDAnak from './assets/image/PHDAnak.jpg'
+import HDICU1 from './assets/image/HDICU1.jpg'
+import HDICU2 from './assets/image/HDICU2.jpg'
+import HDReg1 from './assets/image/HDReg1.jpg'
+import HDReg2 from './assets/image/HDReg2.jpg'
+import HDReg3 from './assets/image/HDReg3.jpg'
+import HDReg4 from './assets/image/HDReg4.jpg'
+import HDReg5 from './assets/image/HDReg5.jpg'
+import HDReg6 from './assets/image/HDReg6.jpg'
+import HDReg7 from './assets/image/HDReg7.jpg'
+import HDVip1 from './assets/image/HDVip1.jpg'
+import HDVip2 from './assets/image/HDVip2.jpg'
+import HDVip3 from './assets/image/HDVip3.jpg'
+import HDOvertime1 from './assets/image/HDOvertime1.jpg'
 import { useInView } from 'react-intersection-observer'
-
+import { BiSearch } from 'react-icons/bi'
+import { useHover } from '@mantine/hooks'
+import { Carousel } from '@mantine/carousel'
 function HD() {
   const [opened, setOpened] = useState(false);
   const { ref: myRef, inView: myImageIsVisible } = useInView()
   const { ref: myRef1, inView: myImageIsVisible1 } = useInView()
   const { ref: myRef2, inView: myImageIsVisible2 } = useInView()
+  const { hovered: hovered1, ref: ref1 } = useHover();
+  const { hovered: hovered2, ref: ref2 } = useHover();
+  const { hovered: hovered3, ref: ref3 } = useHover();
+  const { hovered: hovered4, ref: ref4 } = useHover();
+  const { hovered: hovered5, ref: ref5 } = useHover();
+  const [opened1, setOpened1] = useState(false);
+  const [opened2, setOpened2] = useState(false);
+  const [opened3, setOpened3] = useState(false);
+  const [opened4, setOpened4] = useState(false);
+  const [opened5, setOpened5] = useState(false);
   return (
     <>
       <Text className={style.h1}
@@ -215,14 +240,265 @@ function HD() {
                 </List>
               </Grid.Col>
             </Grid>
+
+            <p className='text-md mt-5 font-thin mb-5'>Ruang Hemodialisa Rumah Sakit Khusus Ginjal Ny. R.A. Habibie memiliki beberapa jenis ruang hemodialisa, yaitu :</p>
+
+            <Carousel slideSize="30%" slideGap="lg" loop align="start">
+              <Carousel.Slide>
+                <a ref={ref1} className='relative block group'>
+                  <Image
+                    src={HDICU1}
+                    className='rounded-md drop-shadow-lg object-cover transition ease-in delay-75 group-hover:scale-110 group-hover:opacity-5'
+                    alt='Hemodialisa ICU'
+                    priority />
+                  {hovered1 && <BiSearch className='absolute z-10 top-1/3 left-0 right-0 mr-auto ml-auto text-5xl text-[#1E90FF]' onClick={() => setOpened1(true)} />}
+                </a>
+                <Modal
+                  size='90%'
+                  opened={opened1}
+                  onClose={() => setOpened1(false)}
+                >
+                  <Carousel className={style.carousel} slideSize="70%" slideGap="md" >
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDICU1}
+                        width={800}
+                        height={500}
+                        priority
+                        alt="Hemodialisa ICU"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDICU2}
+                        width={800}
+                        height={500}
+                        loading='lazy'
+                        alt="Hemodialisa ICU"
+                      />
+                    </Carousel.Slide>
+                  </Carousel>
+                </Modal>
+                <div className='p-5'>
+                  <Group position="center" mt="xs">
+                    <Text weight={400}>Hemodialisa ICU</Text>
+                  </Group>
+                </div>
+              </Carousel.Slide>
+
+              <Carousel.Slide>
+                <a ref={ref2} className='relative block group'>
+                  <Image
+                    src={HDReg1}
+                    className='rounded-md drop-shadow-lg object-cover transition ease-in delay-75 group-hover:scale-110 group-hover:opacity-5'
+                    alt='Hemodialisa Reguler'
+                    priority />
+                  {hovered2 && <BiSearch className='absolute z-10 top-1/3 left-0 right-0 mr-auto ml-auto text-5xl text-[#1E90FF]' onClick={() => setOpened2(true)} />}
+                </a>
+                <Modal
+                  size='90%'
+                  opened={opened2}
+                  onClose={() => setOpened2(false)}
+                >
+                  <Carousel className={style.carousel} slideSize="70%" slideGap="md" >
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg1}
+                        width={800}
+                        height={500}
+                        priority
+                        alt="Hemodialisa Reguler"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg2}
+                        width={800}
+                        height={500}
+                        priority
+                        alt="Hemodialisa Reguler"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg3}
+                        width={800}
+                        height={500}
+                        loading='lazy'
+                        alt="Hemodialisa Reguler"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg4}
+                        width={800}
+                        height={500}
+                        loading='lazy'
+                        alt="Hemodialisa Reguler"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg5}
+                        width={800}
+                        height={500}
+                        loading='lazy'
+                        alt="Hemodialisa Reguler"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg6}
+                        width={800}
+                        height={500}
+                        loading='lazy'
+                        alt="Hemodialisa Reguler"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg7}
+                        width={800}
+                        height={500}
+                        loading='lazy'
+                        alt="Hemodialisa Reguler"
+                      />
+                    </Carousel.Slide>
+                  </Carousel>
+                </Modal>
+                <div className='p-5'>
+                  <Group position="center" mt="xs">
+                    <Text weight={400}>Hemodialisa Reguler</Text>
+                  </Group>
+                </div>
+              </Carousel.Slide>
+
+              <Carousel.Slide>
+                <a ref={ref3} className='relative block group'>
+                  <Image
+                    src={HDVip2}
+                    className='rounded-md drop-shadow-lg object-cover transition ease-in delay-75 group-hover:scale-110 group-hover:opacity-5'
+                    alt='Hemodialisa VIP'
+                    priority />
+                  {hovered3 && <BiSearch className='absolute z-10 top-1/3 left-0 right-0 mr-auto ml-auto text-5xl text-[#1E90FF]' onClick={() => setOpened3(true)} />}
+                </a>
+                <Modal
+                  size='90%'
+                  opened={opened3}
+                  onClose={() => setOpened3(false)}
+                >
+                  <Carousel className={style.carousel} slideSize="70%" slideGap="md" >
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDVip1}
+                        width={800}
+                        height={500}
+                        priority
+                        alt="Hemodialisa VIP"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDVip2}
+                        width={800}
+                        height={500}
+                        loading='lazy'
+                        alt="Hemodialisa VIP"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDVip3}
+                        width={800}
+                        height={500}
+                        loading='lazy'
+                        alt="Hemodialisa VIP"
+                      />
+                    </Carousel.Slide>
+                  </Carousel>
+                </Modal>
+                <div className='p-5'>
+                  <Group position="center" mt="xs">
+                    <Text weight={400}>Hemodialisa VIP</Text>
+                  </Group>
+                </div>
+              </Carousel.Slide>
+
+              <Carousel.Slide>
+                <a ref={ref4} className='relative block group'>
+                  <Image
+                    src={HDOvertime1}
+                    className='rounded-md drop-shadow-lg object-cover transition ease-in delay-75 group-hover:scale-110 group-hover:opacity-5'
+                    alt='Hemodialisa ICU'
+                    priority />
+                  {hovered4 && <BiSearch className='absolute z-10 top-1/3 left-0 right-0 mr-auto ml-auto text-5xl text-[#1E90FF]' onClick={() => setOpened4(true)} />}
+                </a>
+                <Modal
+                  size='90%'
+                  opened={opened4}
+                  onClose={() => setOpened4(false)}
+                >
+                  <Carousel className={style.carousel} slideSize="70%" slideGap="md" >
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDOvertime1}
+                        width={800}
+                        height={500}
+                        priority
+                        alt="Hemodialisa Overtime"
+                      />
+                    </Carousel.Slide>
+                  </Carousel>
+                </Modal>
+                <div className='p-5'>
+                  <Group position="center" mt="xs">
+                    <Text weight={400}>Hemodialisa Overtime</Text>
+                  </Group>
+                </div>
+              </Carousel.Slide>
+
+              <Carousel.Slide>
+                <a ref={ref4} className='relative block group'>
+                  <Image
+                    src={PHDAnak}
+                    className='rounded-md drop-shadow-lg object-cover transition ease-in delay-75 group-hover:scale-110 group-hover:opacity-5'
+                    alt='Hemodialisa ICU'
+                    priority />
+                  {hovered5 && <BiSearch className='absolute z-10 top-1/3 left-0 right-0 mr-auto ml-auto text-5xl text-[#1E90FF]' onClick={() => setOpened5(true)} />}
+                </a>
+                <Modal
+                  size='90%'
+                  opened={opened5}
+                  onClose={() => setOpened5(false)}
+                >
+                  <Carousel className={style.carousel} slideSize="70%" slideGap="md" >
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={PHDAnak}
+                        width={800}
+                        height={500}
+                        priority
+                        alt="Hemodialisa Anak"
+                      />
+                    </Carousel.Slide>
+                  </Carousel>
+                </Modal>
+                <div className='p-5'>
+                  <Group position="center" mt="xs">
+                    <Text weight={400}>Hemodialisa Anak</Text>
+                  </Group>
+                </div>
+              </Carousel.Slide>
+            </Carousel>
+
             <p className='text-md mt-3 font-thin'>Kesehatan dan Keselamatan Kerja Harus diperhatikan hal-hal sebagai berikut: Pelaksanaan kewaspadaan universal (universal precaution) yang ketat (pasien, staf, penggunaan alat medik/non medik) merupakan kunci utama dalam pencegahan transmisi. Penataan ruang, aksesibilitas, penerangan dan pemilihan material harus sesuai dengan ketentuan yang mengacu pada patient safety.
               <br />
               <br />
               Dalam rekam medik dicatat diagnosis  medik (berdasarkan ICD X dan ICD 9 CM) untuk pelaporan ke manajemen RSMengirim laporan ke Indonesian Renal  Registry PERNEFRI secara berkala tiap bulan.
             </p>
           </div>
-        </div>
-      </div>
+        </div >
+      </div >
     </>
   )
 

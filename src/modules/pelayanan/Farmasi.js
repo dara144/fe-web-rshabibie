@@ -38,13 +38,13 @@ function Farmasi() {
                   <List.Item className='font-[350] text-[#4B3F3F]'>Instalasi Farmasi merupakan unit pelaksana fungsional yang menyelenggarakan seluruh kegiatan pelayanan kefarmasian di Rumah Sakit, yang meliputi :</List.Item>
                   <List className='list-disc text-md mt-3 mb-5 font-[350] text-[#4B3F3F]' withPadding>
                     <List.Item>Pengelolaan sediaan Farmasi, Alat Kesehatan dan Bahan Medis Habis Pakai, dan</List.Item>
-                    <List.Item>Pelayanan Farmasi klinik.</List.Item>
+                    <List.Item>Pelayanan Farmasi klinik</List.Item>
                   </List>
                   <List.Item>TAMBAHAN <span className='text-[#1E90FF]'>LAINNYA :</span></List.Item>
                   <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Pelayanan resep pasien JKN, Kontraktor, (INHealth, KAI, PT DI) dan Umum (Swasta).</List.Item>
-                    <List.Item>Pelayanan Informasi Obat (PIO).</List.Item>
-                    <List.Item>Pelayanan konsultasi obat oleh Apoteker.</List.Item>
+                    <List.Item>Pelayanan resep pasien JKN, Kontraktor, dan Umum (Swasta)</List.Item>
+                    <List.Item>Pelayanan Informasi Obat (PIO)</List.Item>
+                    <List.Item>Pelayanan konsultasi obat oleh Apoteker</List.Item>
                   </List>
                 </List>
               </Grid.Col>

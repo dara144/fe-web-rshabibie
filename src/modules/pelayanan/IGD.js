@@ -21,10 +21,10 @@ function IGD() {
         <div className={style.h2}>
           <p className='text-md'>INFORMASI UMUM</p>
           <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-            <List.Item>IGD RSKG Ny. R.A. Habibie Bandung buka 24 jam terus menerus.</List.Item>
-            <List.Item>IGD RSKG Ny. R.A. Habibie Bandung melayani pasien gawat darurat maupun tidak gawat darurat.</List.Item>
-            <List.Item>Tenaga medis IGD RSKG Ny. R.A. Habibie Bandung selalu on dite dan bergilir.</List.Item>
-            <List.Item>IGD RSKG Ny. R.A. Habibie Bandung menerima pasien umum (datang sendiri) dan pasien rujukan baik dari dokter praktek, bidan maupun rumah sakit lainnya.</List.Item>
+            <List.Item>IGD RSKG Ny. R.A. Habibie Bandung buka 24 jam terus menerus</List.Item>
+            <List.Item>IGD RSKG Ny. R.A. Habibie Bandung melayani pasien gawat darurat maupun tidak gawat darurat</List.Item>
+            <List.Item>Tenaga medis IGD RSKG Ny. R.A. Habibie Bandung selalu on dite dan bergilir</List.Item>
+            <List.Item>IGD RSKG Ny. R.A. Habibie Bandung menerima pasien umum (datang sendiri) dan pasien rujukan baik dari dokter praktek, bidan maupun rumah sakit lainnya</List.Item>
           </List>
           <i className='text-[#1E90FF] font-[350] px-12 cursor-pointer'
             onClick={() => setOpened(true)}>Klik disini untuk melihat informasi lebih detail..</i>
@@ -61,27 +61,20 @@ function IGD() {
                     </div>
                     <p className='text-md mt-3'>TATA TERTIB</p>
                     <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                      <List.Item>Keluarga dan pasien wajib menjaga ketenangan dan ketertiban selama berada diruangan IGD RSKG Ny. R.A. Habibie Bandung.</List.Item>
-                      <List.Item>Pasien yang masuk ke ruang periksa IGD hanya boleh didampingi oleh 1-2 orang.</List.Item>
+                      <List.Item>Keluarga dan pasien wajib menjaga ketenangan dan ketertiban selama berada diruangan IGD RSKG Ny. R.A. Habibie Bandung</List.Item>
+                      <List.Item>Pasien yang masuk ke ruang periksa IGD hanya boleh didampingi oleh 1-2 orang</List.Item>
                     </List>
                     <p className='text-md mt-6'>KRITIK DAN SARAN</p>
                     <p className='text-md mt-3 font-thin text-[#4B3F3F]'>Kritik dan saran pelayanan IGD dapat disampaikan melalui kotak saran yang sudah disediakan.</p>
                   </Grid.Col>
                 </Grid>
-                <p className='text-md mt-6'>DOKTER JAGA IGD RSKG NY. R.A. HABIBIE BANDUNG</p>
-                <p className='text-md mt-3 font-thin text-[#4B3F3F]'>Dokter-dokter jaga dengan kualifikasi bersertifikat GELS/ATLS/ACLS :  </p>
-                <List className='list-decimal text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                  <List.Item>Dr. Noor Rusma Hidayati.</List.Item>
-                  <List.Item>Dr. Cut Indra Murzi.</List.Item>
-                  <List.Item>Dr. Esther Sylviani.</List.Item>
-                </List>
                 <p className='text-md mt-6'>DOKTER KONSULEN RSKG NY. R.A. HABIBIE BANDUNG</p>
                 <p className='text-md mt-3 font-thin text-[#4B3F3F]'>Dokter konsulen yang bisa melayani secara on call 24 call dengan spesialisasi sebagai berikut :</p>
                 <List className='list-decimal text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                  <List.Item>Spesialis Penyakit Dalam.</List.Item>
-                  <List.Item>Spesialis Bedah Vaskuler.</List.Item>
-                  <List.Item>Spesialis Jantung.</List.Item>
-                  <List.Item>Spesialis Urologi.</List.Item>
+                  <List.Item>Spesialis Penyakit Dalam</List.Item>
+                  <List.Item>Spesialis Bedah Vaskuler</List.Item>
+                  <List.Item>Spesialis Jantung</List.Item>
+                  <List.Item>Spesialis Urologi</List.Item>
                 </List>
               </div>
             </div>
@@ -107,19 +100,19 @@ function IGD() {
                   <List.Item>PELAYANAN</List.Item>
                   <List.Item className='font-[350] text-[#4B3F3F]'>IGD RSKG Ny. R.A. Habibie Bandung melayani kasus-kasus :</List.Item>
                   <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Penyakit Dalam.</List.Item>
-                    <List.Item>Penyakit Bedah.</List.Item>
+                    <List.Item>Penyakit Dalam</List.Item>
+                    <List.Item>Penyakit Bedah</List.Item>
                   </List>
                 </List>
                 <List className='list-none text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
                   <List.Item>Prioritas pelayanan gawat darurat :</List.Item>
                   <List.Item>Pasien yang harus segera dilayani dan didahulukan adalah :</List.Item>
                   <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Gangguan pernafasan dan jalan nafas.</List.Item>
-                    <List.Item>Kehilangan cairan yang banyak (muntah, diare, demam berdarah).</List.Item>
-                    <List.Item>Keracunan.</List.Item>
-                    <List.Item>Kejang-kejang.</List.Item>
-                    <List.Item>Penurunan kesadaran.</List.Item>
+                    <List.Item>Gangguan pernafasan dan jalan nafas</List.Item>
+                    <List.Item>Kehilangan cairan yang banyak (muntah, diare, demam berdarah)</List.Item>
+                    <List.Item>Keracunan</List.Item>
+                    <List.Item>Kejang-kejang</List.Item>
+                    <List.Item>Penurunan kesadaran</List.Item>
                   </List>
                 </List>
 
@@ -138,20 +131,11 @@ function IGD() {
                 <List className='list-none text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
                   <List.Item>Pasien yang pelayanannya sementara bisa ditangguhkan :</List.Item>
                   <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Demam, batuk, pilek.</List.Item>
-                    <List.Item>Sakit perut dan diare ringan.</List.Item>
-                    <List.Item>Kecelakaan lalu lintas ringan.</List.Item>
-                    <List.Item>Penyakit kulit.</List.Item>
-                    <List.Item>Tidak bisa BAB dan BAK.</List.Item>
-                  </List>
-                </List>
-
-                <List className='list-none text-md mt-6' withPadding>
-                  <List.Item>TARIF IGD</List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Rp. 55.000,00 sudah termasuk pemeriksaan dokter jaga</List.Item>
-                    <List.Item>Tindakan medik sesuai dengan peraturan yang berlaku di RSKG Ny. R.A. Habibie Bandung.</List.Item>
-                    <List.Item>Alat habis pakai disesuaikan dengan pemakaian</List.Item>
+                    <List.Item>Demam, batuk, pilek</List.Item>
+                    <List.Item>Sakit perut dan diare ringan</List.Item>
+                    <List.Item>Kecelakaan lalu lintas ringan</List.Item>
+                    <List.Item>Penyakit kulit</List.Item>
+                    <List.Item>Tidak bisa BAB dan BAK</List.Item>
                   </List>
                 </List>
               </Grid.Col>

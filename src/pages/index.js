@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>RS Khusus Ginjal Ny. R.A. Habibie</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <ModuleHome />
     </>

@@ -20,10 +20,6 @@ export default function Angkatan28() {
     {
       "name": "Teknisi",
       "Hasil": 7
-    },
-    {
-      "name": "Jumlah",
-      "Hasil": 71
     }
   ]
   return (

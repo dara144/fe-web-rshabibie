@@ -1,7 +1,7 @@
 
 import style from '@styles/Nav.module.css'
 import ActiveLink from '@component/ActiveLink'
-import { MdEmail, MdOutlineHealthAndSafety } from 'react-icons/md'
+import { MdEmail, MdOutlineHealthAndSafety, MdOutlineLocationOn } from 'react-icons/md'
 import { useMediaQuery } from '@mantine/hooks'
 import logo_rskg from '/public/header-web.png'
 import Image from 'next/image'
@@ -18,9 +18,9 @@ export default function Nav({ children }) {
           <x-contact>
             <MdEmail />
             <span>
-              <ActiveLink href='mailto:rskginjal@gmail.com?subject=Halo Saya Pasien....'>
+              <ActiveLink href='mailto:rumahsakitginjal@gmail.com?subject=Halo Saya Pasien....'>
                 <a>
-                  rskginjal@gmail.com
+                  rumahsakitginjal@gmail.com
                 </a>
               </ActiveLink>
             </span>
@@ -36,8 +36,19 @@ export default function Nav({ children }) {
               </ActiveLink>
             </span>
           </x-contact>
+          <hr />
+          <x-contact>
+            <MdOutlineLocationOn />
+            <span>
+              <ActiveLink href="https://maps.app.goo.gl/zzG7W4Gzwo7XWthXA">
+                <a>
+                  Jl. Tubagus Ismail No.46
+                </a>
+              </ActiveLink>
+            </span>
+          </x-contact>
         </div>
-        <div className={style.container}>
+        <nav className={style.container}>
           <x-logo>
             <ActiveLink activeClassName={'text-primary'} href='/'>
               <a className='cursor-pointer'>
@@ -50,7 +61,7 @@ export default function Nav({ children }) {
           ) : (
             <Burger />
           )}
-        </div>
+        </nav>
       </header>
       {children}
     </>

@@ -11,7 +11,7 @@ import kls1bag4 from '../assets/image/kls1bag4.jpg'
 import { useState } from "react";
 import { BiSearch } from "react-icons/bi";
 
-export default function Ranapkls1(){
+export default function Ranapkls1() {
   const { hovered: hovered1, ref: ref1 } = useHover();
   const [opened1, setOpened1] = useState(false);
   return (
@@ -85,8 +85,6 @@ export default function Ranapkls1(){
             <List.Item>AC, TV Cable</List.Item>
             <List.Item>Kamar mandi</List.Item>
           </List>
-          <br />
-          Tarif 	Rp 450.000,-
         </Text>
       </Card>
     </>

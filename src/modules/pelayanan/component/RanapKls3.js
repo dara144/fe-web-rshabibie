@@ -11,7 +11,7 @@ import kls3bag2 from '../assets/image/kls3bag2.jpg'
 export default function RanapKls3() {
   const { hovered: hovered3, ref: ref3 } = useHover();
   const [opened3, setOpened3] = useState(false);
-  return(
+  return (
     <>
       <Card shadow="sm" p="lg" radius="md" withBorder>
         <Card.Section>
@@ -72,8 +72,6 @@ export default function RanapKls3() {
             <List.Item>AC, TV</List.Item>
             <List.Item>Kamar mandi</List.Item>
           </List>
-          <br />
-          Tarif 	Rp 250.000,-
         </Text>
       </Card>
     </>

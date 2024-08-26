@@ -104,17 +104,8 @@ export default function NavMenu() {
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/TataTertib'>
             <Menu.Item component='a'>Tata Tertib</Menu.Item>
           </ActiveLink>
-          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/HakDanKewajiban'>
-            <Menu.Item component='a'>Hak Dan Kewajiban</Menu.Item>
-          </ActiveLink>
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/LayananPengaduan'>
             <Menu.Item component='a'>Layanan Pengaduan</Menu.Item>
-          </ActiveLink>
-          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/Saran'>
-            <Menu.Item component='a'>Saran</Menu.Item>
-          </ActiveLink>
-          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/Kontak'>
-            <Menu.Item component='a'>Kontak</Menu.Item>
           </ActiveLink>
         </Menu.Dropdown>
       </Menu>
@@ -139,7 +130,7 @@ export default function NavMenu() {
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/PelatihanHD'>
             <Menu.Item component='a'>Pelatihan Dialisis</Menu.Item>
           </ActiveLink>
-          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/Angkatan1'>
+          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/SemuaAngkatan'>
             <Menu.Item component='a'>Lulusan Pelatihan Dialisis</Menu.Item>
           </ActiveLink>
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/AngkatanCAPD'>

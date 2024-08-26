@@ -1,98 +1,11 @@
 import { Grid, ScrollArea, Text } from '@mantine/core';
-import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import style from '../assets/IndikatorMutu.module.css'
 import Border from '@component/border'
 import Link from './Link'
+import Image from 'next/image';
+import imgWaktuTungguRajal from '/public/WaktuTungguRajal.jpg'
+import imgWaktuTungguRajal2 from '/public/WaktuTungguRajal2.jpg'
 export default function WaktuTungguRajal() {
-  const data = [
-    {
-      "name": "Juli",
-      "Target": 80,
-      "Hasil": 74.38
-    },
-    {
-      "name": "Agustus",
-      "Target": 80,
-      "Hasil": 74.19
-    },
-    {
-      "name": "September",
-      "Target": 80
-    }
-  ]
-  const value = [
-    {
-      "name": "1",
-      "Target": 80,
-      "Hasil": 60.83
-    },
-    {
-      "name": "2",
-      "Target": 80,
-      "Hasil": 72.48
-    },
-    {
-      "name": "3",
-      "Target": 80,
-      "Hasil": 70.98
-
-    },
-    {
-      "name": "4",
-      "Target": 80,
-      "Hasil": 82.32
-    },
-    {
-      "name": "5",
-      "Target": 80,
-      "Hasil": 73.08
-    },
-    {
-      "name": "6",
-      "Target": 80,
-      "Hasil": 91.07
-    },
-    {
-      "name": "7",
-      "Target": 80,
-      "Hasil": 62.70
-    },
-    {
-      "name": "8",
-      "Target": 80,
-      "Hasil": 93.81
-    },
-    {
-      "name": "9",
-      "Target": 80,
-      "Hasil": 71.73
-    },
-    {
-      "name": "10",
-      "Target": 80,
-      "Hasil": 45.83
-    },
-    {
-      "name": "11",
-      "Target": 80
-    },
-    {
-      "name": "12",
-      "Target": 80
-    },
-    {
-      "name": "13",
-      "Target": 80
-    },
-    {
-      "name": "14",
-      "Target": 80
-    },
-    {
-      "name": "15",
-      "Target": 80
-    }
-  ]
   return (
     <>
       <Text className={style.h1}
@@ -101,88 +14,19 @@ export default function WaktuTungguRajal() {
         <Border />
         <Grid>
           <Grid.Col md={3} lg={3}>
-            <ScrollArea style={{
-              height: '100vh',
-              overflow: 'clip',
-              marginTop: '1.25rem'
-            }}
-              type="always"
-            >
-              <Link />
-            </ScrollArea>
+            <Link />
           </Grid.Col>
           <Grid.Col md={9} lg={9}>
-            <label className='text-3xl font-bold'>Waktu Tunggu <b className='text-[#1E90FF]'>Rawat Jalan</b>
-            </label>
-            <br />
-            <label className='text-3xl font-bold'>
-              Juli-September 2022
-            </label>
-
+            <Image
+              src={imgWaktuTungguRajal}
+              blurDataURL={imgWaktuTungguRajal}
+              alt='Waktu Tunggu Rawat Jalan' />
             <br />
             <br />
-
-            <ResponsiveContainer width="65%" height="35%">
-              <BarChart
-                width={730}
-                height={250}
-                data={data}
-                margin={{
-                  top: 5,
-                  right: 30,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name"/>
-                <YAxis tickFormatter={(tick) => {
-                  return `${tick}%`
-                }} />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="Target" fill="#53A8FB" />
-                <Bar dataKey="Hasil" fill="#82ca9d" />
-              </BarChart>
-            </ResponsiveContainer>
-
-            <br />
-            <br />
-            <br />
-
-            <label className='text-3xl font-bold'>Waktu Tunggu <b className='text-[#1E90FF]'>Rawat Jalan</b>
-            </label>
-            <br />
-            <label className='text-3xl font-bold'>
-              Juli-September 2022
-            </label>
-
-            <br />
-            <br />
-
-            <ResponsiveContainer width="65%" height="35%">
-              <LineChart
-                width={500}
-                height={300}
-                data={value}
-                margin={{
-                  top: 5,
-                  right: 70,
-                  left: 20,
-                  bottom: 5,
-                }}
-              >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis tickFormatter={(tick) => {
-                return `${tick}%`
-              }} />
-                <Tooltip />
-                <Legend />
-                <Line type="monotone" dataKey="Target" stroke="#53A8FB" />
-                <Line type="monotone" dataKey="Hasil" stroke="#82ca9d" activeDot={{ r: 8 }} />
-              </LineChart>
-            </ResponsiveContainer>
+            <Image
+              src={imgWaktuTungguRajal2}
+              blurDataURL={imgWaktuTungguRajal2}
+              alt='Waktu Tunggu Rawat Jalan' />
           </Grid.Col>
         </Grid>
       </main>

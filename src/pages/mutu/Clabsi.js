@@ -8,7 +8,7 @@ export default function PenggunaanAPDPage() {
       <Head>
         <title>Data Surveilens Infeksi-Clabsi</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <Clabsi />
     </>

@@ -8,7 +8,7 @@ export default function EdukasiGinjalPage() {
       <Head>
         <title>Penyakit Ginjal - Gejala, Penyebab, dan Pengobatan</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <EdukasiGinjal />
     </>

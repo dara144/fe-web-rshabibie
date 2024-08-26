@@ -8,7 +8,7 @@ export default function PelatihanHDPage() {
       <Head>
         <title>Pelatihan HD</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <PelatihanHD />
     </>

@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer';
 import diklat from '../diklat/assets/image/Diklat2.jpg';
 import VisiMisi from '../diklat/assets/image/visimisirs.jpeg';
 import komitmen from '../diklat/assets/image/komitmendiklat.jpeg';
-import pelatihanDiklat from '../diklat/assets/image/PelatihanDiklat2.jpg';
+import pelatihanDiklat from '../diklat/assets/image/ProfilDiklat.jpg';
 import Image from 'next/future/image';
 import { IoLogoWhatsapp } from 'react-icons/io5';
 import { IoIosCall } from 'react-icons/io';
@@ -89,12 +89,10 @@ function ProfilDiklat() {
             </div>
             <Box className='mr-[7vw] mb-[2vh] ml-14 mt-10 lg:mt-20'>
               <label className='text-xl mb-3 font-bold'>
-                Informasi <b className={style.h3}>Pendidikan Dan Pelatihan</b></label>
+                Kegiatan Unit <b className={style.h3}>Pendidikan Dan Pelatihan</b></label>
               <ul className='list-decimal text-md mt-3 font-thin px-12'>
-                <li>Pelatihan diadakan setahun 2x (Maret - Mei) dan (September - November).</li>
-                <li>Pelatihan Dokter Spesialis Penyakit Dalam (30x pertemuan dalam 3 bulan).</li>
-                <li>Pelatihan Dokter Umum, Perawat, dan Teknisi (Dilaksanakan selama 3 bulan).</li>
-                <li>Pelaksanaan Program Pelatihan meliputi perkuliahan, simulasi, praktek kerja lapangan, dan diskusi kelompok.</li>
+                <li>Pelatihan dialisis bagi perawat yang dilaksanakan dua kali setiap tahunnya</li>
+                <li>Peningkatan kompetensi tenaga kesehatan dengan In House Training, Webinar, Simposium, dan workshop</li>
               </ul>
               <br />
               <br />
@@ -105,16 +103,16 @@ function ProfilDiklat() {
                   <MdLocationOn className='absolute h-4 w-4' /> <span className='ml-7 '>Jl. Tubagus Ismail No.46 - 40134</span>
                   <hr className='mr-16 mt-2 mb-2' />
 
-                  <ActiveLink href='tel:081218652002'>
+                  <ActiveLink href='tel:085135150313'>
                     <a className='hover:text-[#1E90FF]'>
-                      <IoIosCall className='absolute h-4 w-4' /> <span className='ml-7 '>0812-1865-2002</span>
+                      <IoIosCall className='absolute h-4 w-4' /> <span className='ml-7 '>0851-3515-0313</span>
                       <hr className='mr-16 mt-2 mb-2' />
                     </a>
                   </ActiveLink>
 
-                  <ActiveLink href='https://wa.link/sy9zoe'>
+                  <ActiveLink href='https://wa.link/dxmnuf'>
                     <a className='hover:text-cyan-500 relative'>
-                      <IoLogoWhatsapp className='absolute h-4 w-4 top-[0px]' /> <span className='ml-7 '>0812-1865-2002</span>
+                      <IoLogoWhatsapp className='absolute h-4 w-4 top-[0px]' /> <span className='ml-7 '>0851-3515-0313</span>
                       <hr className='mr-16 mt-2 mb-2' />
                     </a>
                   </ActiveLink>

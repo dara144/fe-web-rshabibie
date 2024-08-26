@@ -73,8 +73,6 @@ export default function VIP() {
             <List.Item>AC, TV Cable, Kulkas, Dispenser</List.Item>
             <List.Item>Kamar mandi</List.Item>
           </List>
-          <br />
-          Tarif 	Rp 800.000,-
         </Text>
       </Card>
     </>

@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   gap: 0.2rem;
-  color: #1E90FF;
+  color: #1e90ff;
 }
 .header svg {
   position: relative;
@@ -28,7 +28,7 @@
   @apply h-4 border-l border-base-content;
 }
 .container {
-  @apply mx-auto flex items-center border border-base-300 bg-base-100 p-2 text-sm md:text-base border-b-0 shadow-lg;
+  @apply mx-auto flex items-center border border-b-0 border-base-300 bg-base-100 p-2 text-sm shadow-lg md:text-base;
   /* border-bottom: 7px solid hsl(var(--p)); */
 }
 .container x-logo {
@@ -49,7 +49,7 @@
   }
 }
 
-.li{
+.li {
   margin-bottom: 1.5rem;
   font-size: larger;
 }
@@ -83,8 +83,8 @@
 }
 
 /* ukuran tablet */
-@media(max-width: 820px) {
-  .li{
+@media (max-width: 820px) {
+  .li {
     margin-bottom: 1.5rem;
     font-size: larger;
   }

@@ -372,7 +372,7 @@ export default function NavBurger() {
                         </ActiveLink>
                       </li>
                       <li className={style.li}>
-                        <ActiveLink activeClassName='text-[#1E90FF]' href='/diklat/Angkatan1'>
+                        <ActiveLink activeClassName='text-[#1E90FF]' href='/diklat/SemuaAngkatan'>
                           <a className="hover:text-[#1E90FF] text-[#3f3f3f] font-medium" onClick={onClickOff}>
                             Lulusan Pelatihan Dialisis
                           </a>

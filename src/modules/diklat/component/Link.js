@@ -5,6 +5,14 @@ export default function Link() {
   return (
     <>
       <div className="mb-2">
+        <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/SemuaAngkatan'>
+          <a className='hover:text-[#1E90FF]'>
+            <span className={style.span}>Semua Angkatan</span>
+          </a>
+        </ActiveLink>
+      </div>
+      <hr className="my-3" />
+      <div className="mb-2">
         <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/Angkatan1'>
           <a className='hover:text-[#1E90FF]'>
             <span className={style.span}>Angkatan I (Agustus 2000)</span>
@@ -320,6 +328,13 @@ export default function Link() {
         <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/Angkatan40'>
           <a className='hover:text-[#1E90FF]'>
             <span className={style.span}>Angkatan XXXX (5 Maret - 5 Juli 2024)</span>
+          </a>
+        </ActiveLink>
+      </div>
+      <div className="mb-2">
+        <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/Angkatan41'>
+          <a className='hover:text-[#1E90FF]'>
+            <span className={style.span}>Angkatan XXXXI (23 Juli - 9 November 2024)</span>
           </a>
         </ActiveLink>
       </div>

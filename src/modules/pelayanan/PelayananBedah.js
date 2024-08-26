@@ -30,8 +30,8 @@ function PelayananBedah() {
               <p className='text-md font-thin'>Pelayanan bedah vaskuler Rumah Sakit Khusus Ginjal Ny. R.A. Habibie merupakan suatu sarana pelayanan terpadu yang meliputi tindakan operatif serta tindakan diagnostik. Pelayanan ini dilayani oleh staff berpengalaman dan professional, terdiri dari Dokter Spesialis, perawat spesialis bersertifikat keahlian khusus serta tenaga non medis.</p>
               <p className='text-md mt-3 font-thin'>Pelayanan bedah Rumah Sakit Khusus Ginjal Ny. R.A. Habibie meliputi :</p>
               <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                <List.Item>Operasi AV Shunt.</List.Item>
-                <List.Item>Pemasangan Double Lument Catheter.</List.Item>
+                <List.Item>Operasi AV Shunt</List.Item>
+                <List.Item>Pemasangan Double Lument Catheter</List.Item>
               </List>
             </div>
           </Grid.Col>

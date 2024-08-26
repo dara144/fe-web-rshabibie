@@ -8,7 +8,7 @@ export default function ckdPage() {
       <Head>
         <title>Chronic Kidney Disease (CKD)</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <CKD />
     </>

@@ -85,33 +85,17 @@ export default function Link() {
       </div>
       <hr className="my-3" />
       <div className="mb-2">
-        <ActiveLink activeClassName={'text-[#1E90FF]'} href='/mutu/Phlebitis'>
+        <ActiveLink activeClassName={'text-[#1E90FF]'} href='/mutu/WaktuTanggapKomplain'>
           <a className='hover:text-[#1E90FF]'>
-            <span className={style.span}>Data Surveilens Infeksi - Infeksi Jarum Infus ( Phlebitis )</span>
+            <span className={style.span}>Kecepatan Waktu Tanggap Komplain</span>
           </a>
         </ActiveLink>
       </div>
       <hr className="my-3" />
       <div className="mb-2">
-        <ActiveLink activeClassName={'text-[#1E90FF]'} href='/mutu/IDO'>
+        <ActiveLink activeClassName={'text-[#1E90FF]'} href='/mutu/KepuasanPasien'>
           <a className='hover:text-[#1E90FF]'>
-            <span className={style.span}>Data Surveilens Infeksi - Infeksi Daerah Operasi ( IDO )</span>
-          </a>
-        </ActiveLink>
-      </div>
-      <hr className="my-3" />
-      <div className="mb-2">
-        <ActiveLink activeClassName={'text-[#1E90FF]'} href='/mutu/Clabsi'>
-          <a className='hover:text-[#1E90FF]'>
-            <span className={style.span}>Data Surveilens Infeksi - Angka Kejadian CLABSI ( <i>Central Line Bloodstream Infection</i> )</span>
-          </a>
-        </ActiveLink>
-      </div>
-      <hr className="my-3" />
-      <div className="mb-2">
-        <ActiveLink activeClassName={'text-[#1E90FF]'} href='/mutu/ISK'>
-          <a className='hover:text-[#1E90FF]'>
-            <span className={style.span}>Data Surveilens Infeksi - ISK</span>
+            <span className={style.span}>Kepuasan Pasien</span>
           </a>
         </ActiveLink>
       </div>

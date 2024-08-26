@@ -8,7 +8,7 @@ export default function LayananPengaduanPage() {
       <Head>
         <title>Layanan Pengaduan</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <LayananPengaduan />
     </>

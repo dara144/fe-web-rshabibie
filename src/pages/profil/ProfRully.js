@@ -8,7 +8,7 @@ export default function ProfRullyPage() {
       <Head>
         <title>Prof. Dr. Rully MA Roesli, Sp.PD-KGH</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <ProfRully />
     </>

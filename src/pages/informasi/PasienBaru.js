@@ -8,7 +8,7 @@ export default function PBaruPage() {
       <Head>
         <title>Pasien Baru</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <PBaru />
     </>

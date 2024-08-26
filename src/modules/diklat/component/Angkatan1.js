@@ -20,10 +20,6 @@ export default function Angkatan1() {
     {
       "name": "Teknisi",
       "Hasil": 0
-    },
-    {
-      "name": "Jumlah",
-      "Hasil": 6
     }
   ]
   return (
@@ -75,9 +71,31 @@ export default function Angkatan1() {
                 }} />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="Target" fill="#53A8FB" />
                 <Bar dataKey="Hasil" fill="#82ca9d" />
               </BarChart>
+            </ResponsiveContainer>
+
+            <ResponsiveContainer width="65%" height="35%">
+              <LineChart
+                width={500}
+                height={300}
+                data={data}
+                margin={{
+                  top: 5,
+                  right: 70,
+                  left: 20,
+                  bottom: 5,
+                }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis tickFormatter={(tick) => {
+                  return `${tick}`
+                }} />
+                <Tooltip />
+                <Legend />
+                <Line type="monotone" dataKey="Hasil" stroke="#82ca9d" activeDot={{ r: 8 }} />
+              </LineChart>
             </ResponsiveContainer>
           </Grid.Col>
         </Grid>

@@ -8,7 +8,7 @@ export default function NyTutiMartiniPage() {
       <Head>
         <title>Ny. Tuti Marini Puspowardojo (R.A. Habibie)</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <NyTutiMartini />
     </>

@@ -20,10 +20,6 @@ export default function Angkatan31() {
     {
       "name": "Teknisi",
       "Hasil": 0
-    },
-    {
-      "name": "Jumlah",
-      "Hasil": 64
     }
   ]
   return (

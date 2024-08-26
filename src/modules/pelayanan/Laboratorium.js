@@ -59,11 +59,11 @@ function Laboratorium() {
                 <List className='list-none text-md mt-7'>
                   <List.Item>PEMERIKSAAN <span className='text-[#1E90FF]'>YANG DILAKUKAN :</span></List.Item>
                   <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Hematologi rutin, yang terdiri dari pemeriksaan Hemoglobin, Leukosit, Eritrosit, Hematokrit, Trombosit dan Nilai MC.</List.Item>
-                    <List.Item>Kimia Klinik yang terdiri dari pemeriksaan Ureum, Kreatinin, Glukosa dan Asam Urat.</List.Item>
-                    <List.Item>Pemeriksaan Elektrolit Serum yang terdiri dari pemeriksaan Kalium, Natrium dan Calsium Ion.</List.Item>
-                    <List.Item>Kimia Klinik yang terdiri dari pemeriksaan Ureum, Kreatinin, Glukosa dan Asam Urat.</List.Item>
-                    <List.Item>Imunoserologi terdiri dari pemeriksaan HbsAG rapid, anti HIV rapid dan anti HCV rapid yang berfungsi sebagai skrining awal bagi pasien Hemodialisa.</List.Item>
+                    <List.Item>Hematologi rutin, yang terdiri dari pemeriksaan Hemoglobin, Leukosit, Eritrosit, Hematokrit, Trombosit dan Nilai MC</List.Item>
+                    <List.Item>Kimia Klinik yang terdiri dari pemeriksaan Ureum, Kreatinin, Glukosa dan Asam Urat</List.Item>
+                    <List.Item>Pemeriksaan Elektrolit Serum yang terdiri dari pemeriksaan Kalium, Natrium dan Calsium Ion</List.Item>
+                    <List.Item>Kimia Klinik yang terdiri dari pemeriksaan Ureum, Kreatinin, Glukosa dan Asam Urat</List.Item>
+                    <List.Item>Imunoserologi terdiri dari pemeriksaan HbsAG rapid, anti HIV rapid dan anti HCV rapid yang berfungsi sebagai skrining awal bagi pasien Hemodialisa</List.Item>
                   </List>
                 </List>
               </Grid.Col>

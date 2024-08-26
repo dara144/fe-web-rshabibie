@@ -64,8 +64,6 @@ export default function RanapKls2() {
             <List.Item>AC, TV Cable</List.Item>
             <List.Item>Kamar mandi</List.Item>
           </List>
-          <br />
-          Tarif 	Rp 350.000,-
         </Text>
       </Card>
     </>

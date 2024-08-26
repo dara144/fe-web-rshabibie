@@ -8,7 +8,7 @@ export default function PatuhFornasPage() {
       <Head>
         <title>Indikator Kepatuhan Penggunaan Formularium Nasional</title>
         <meta name='description' content='website RSKG' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/logo.png' />
       </Head>
       <PatuhFornas />
     </>
