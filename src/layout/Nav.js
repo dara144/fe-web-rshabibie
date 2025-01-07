@@ -8,6 +8,7 @@ import Image from 'next/image'
 import NavMenu from './component/NavMenu'
 import Burger from './component/NavBurger'
 import { BsInstagram } from 'react-icons/bs'
+import { FaYoutube } from 'react-icons/fa6'
 export default function Nav({ children }) {
   const matches = useMediaQuery('(min-width: 900px)', true, { getInitialValueInEffect: false })
 
@@ -18,9 +19,9 @@ export default function Nav({ children }) {
           <x-contact>
             <MdEmail />
             <span>
-              <ActiveLink href='mailto:rumahsakitginjal@gmail.com?subject=Halo Saya Pasien....'>
+              <ActiveLink href='mailto:rskginjal@yahoo.com?subject=Halo Saya Pasien....'>
                 <a>
-                  rumahsakitginjal@gmail.com
+                  rskginjal@yahoo.com
                 </a>
               </ActiveLink>
             </span>
@@ -32,6 +33,17 @@ export default function Nav({ children }) {
               <ActiveLink href='https://www.instagram.com/rskg_habibie'>
                 <a>
                   rskg_habibie
+                </a>
+              </ActiveLink>
+            </span>
+          </x-contact>
+          <hr />
+          <x-contact>
+            <FaYoutube />
+            <span>
+              <ActiveLink href='http://www.youtube.com/@rskgny.r.a.habibie7558'>
+                <a>
+                  RSKG Ny.R.A. Habibie
                 </a>
               </ActiveLink>
             </span>

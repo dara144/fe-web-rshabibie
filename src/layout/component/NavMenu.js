@@ -80,18 +80,18 @@ export default function NavMenu() {
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/AlurPendaftaran'>
             <Menu.Item component='a'>Alur Pendaftaran</Menu.Item>
           </ActiveLink>
-          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/formulir'>
+          {/* <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/formulir'>
             <Menu.Item component='a'>Registrasi Online</Menu.Item>
-          </ActiveLink>
+          </ActiveLink> */}
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/Fasilitas'>
             <Menu.Item component='a'>Fasilitas</Menu.Item>
           </ActiveLink>
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/BudayaKeselamatanRS'>
             <Menu.Item component='a'>Budaya Keselamatan Rumah Sakit</Menu.Item>
           </ActiveLink>
-          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/BPJSKesehatan'>
+          {/* <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/BPJSKesehatan'>
             <Menu.Item component='a'>BPJS Kesehatan</Menu.Item>
-          </ActiveLink>
+          </ActiveLink> */}
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/Mitra'>
             <Menu.Item component='a'>Mitra & Rekan</Menu.Item>
           </ActiveLink>
@@ -101,12 +101,12 @@ export default function NavMenu() {
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/EdukasiGinjal'>
             <Menu.Item component='a'>Edukasi</Menu.Item>
           </ActiveLink>
-          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/TataTertib'>
+          {/* <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/TataTertib'>
             <Menu.Item component='a'>Tata Tertib</Menu.Item>
-          </ActiveLink>
-          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/LayananPengaduan'>
+          </ActiveLink> */}
+          {/* <ActiveLink activeClassName={'text-[#1E90FF]'} href='/informasi/LayananPengaduan'>
             <Menu.Item component='a'>Layanan Pengaduan</Menu.Item>
-          </ActiveLink>
+          </ActiveLink> */}
         </Menu.Dropdown>
       </Menu>
 

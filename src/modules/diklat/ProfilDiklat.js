@@ -11,6 +11,8 @@ import pelatihanDiklat from '../diklat/assets/image/ProfilDiklat.jpg';
 import Image from 'next/future/image';
 import { IoLogoWhatsapp } from 'react-icons/io5';
 import { IoIosCall } from 'react-icons/io';
+import { BsInstagram } from 'react-icons/bs';
+import { FaFacebook } from 'react-icons/fa';
 
 function ProfilDiklat() {
   const { hovered, ref } = useHover()
@@ -38,8 +40,8 @@ function ProfilDiklat() {
             </p>
             <ul className='list-disc text-md mt-3 font-thin px-5'>
               <li>Berdiri sejak tahun 2000.</li>
-              <li>Pendidikan dan Pelatihan Teknik Dialisis untuk Dokter Penyakit Dalam, Dokter Umum, Perawat dan Teknisi.</li>
-              <li>Diselenggarakan 2 kali setahun pada bulan Maret dan Oktober.</li>
+              <li>Pendidikan dan Pelatihan Teknik Dialisis bagi perawat.</li>
+              <li>Diselenggarakan setahun / 2 kali.</li>
               <li>Tim Pengajar : Nefrolog, Ahli Bedah Vaskuler, Apoteker, Manajer, Perawat dan Teknisi yang berpengalaman.</li>
             </ul>
 
@@ -47,7 +49,7 @@ function ProfilDiklat() {
               <a ref={ref} className='relative block group'>
                 <Button className='px-8 mt-5 mb-4 bg-[#1E90FF] hover:bg-white rounded-xl border border-[#1E90FF] hover:text-[#1E90FF] outline-[#1E90FF] focus:outline-none focus:ring-2 focus:ring-offset-2' type='submit'>
                   {hovered && <MdKeyboardArrowRight className='absolute z-10 right-3 text-lg  text-[#1E90FF]' />}
-                  Kunjungi Website Diklat
+                  Lihat lebih lanjut
                 </Button>
               </a>
             </ActiveLink>
@@ -120,6 +122,20 @@ function ProfilDiklat() {
                   <ActiveLink href='mailto:pelatihandialisis@yahoo.com'>
                     <a className='underline hover:text-[#1E90FF] relative'>
                       <MdEmail className='absolute h-5 w-4 top-[0px]' /> <span className='ml-7 '>pelatihandialisis@yahoo.com</span>
+                      <hr className='mr-16 mt-2 mb-2' />
+                    </a>
+                  </ActiveLink>
+
+                  <ActiveLink href='https://www.instagram.com/diklat_rskg_nyrahabibie/'>
+                    <a className='underline hover:text-[#1E90FF] relative'>
+                      <BsInstagram className='absolute h-5 w-4 top-[0px]' /> <span className='ml-7 '>@diklat_rskg_nyrahabibie</span>
+                      <hr className='mr-16 mt-2 mb-2' />
+                    </a>
+                  </ActiveLink>
+
+                  <ActiveLink href='https://www.facebook.com/p/Pelatihan-Dialisis-100069877826341/?locale=id_ID'>
+                    <a className='underline hover:text-[#1E90FF] relative'>
+                      <FaFacebook className='absolute h-5 w-4 top-[0px]' /> <span className='ml-7 '>Pelatihan Dialisis</span>
                       <hr className='mr-16 mt-2' />
                     </a>
                   </ActiveLink>

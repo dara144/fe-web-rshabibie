@@ -6,6 +6,8 @@ import struktur from '../diklat/assets/image/StrukturProgram.avif';
 import { IoIosCall, IoLogoWhatsapp } from 'react-icons/io';
 import Image from 'next/future/image';
 import CarouselPelatihanHD from './component/CarouselPelatihanHD';
+import { FaFacebook } from 'react-icons/fa';
+import { BsInstagram } from 'react-icons/bs';
 
 function PelatihanHD() {
   return (
@@ -20,7 +22,9 @@ function PelatihanHD() {
             Berkenaan dengan hal tersebut Rumah Sakit Khusus Ginjal Ny. R.A. Habibie Bandung, bekerja sama dengan Pernefri Korwil Jawa Barat dan RS. Hasan Sadikin Bandung, menyelenggarakan Pelatihan Dialisis untuk tenaga perawat dan dokter umum.
             <br />
             <br />
-            Pelatihan Dialisis dilaksanakan 2 (dua) kali dalam setahun dengan tenaga pengajar yang terdiri dari para pakar yang berkompeten di bidangnya, dan telah meluluskan lebih dari 1300 orang tenaga ahli dialisis yang terdiri dari perawat, dokter umum, dokter spesialis penyakit dalam dan teknisi dari seluruh Indonesia.
+            Pelatihan Dialisis dilaksanakan 2 (dua) kali dalam setahun dengan tenaga pengajar yang terdiri dari para pakar yang berkompeten di bidangnya, dan telah meluluskan lebih dari 1300 orang tenaga ahli dialisis yang terdiri dari perawat, dokter umum, dokter spesialis penyakit dalam dan teknisi dari seluruh Indonesia. <ActiveLink activeClassName={'text-primary'} href='https://drive.google.com/file/d/15m7GJ2nb21jS6UgNk6Pt9y4zbWttKQKX/view?usp=sharing'>
+              <a className='text-[#1E90FF] italic'>Lihat brosur pelatihan HD disini.</a>
+            </ActiveLink>
           </p>
         </Box >
 
@@ -60,7 +64,7 @@ function PelatihanHD() {
           <Box className='ml-[7vw]'>
             <hr className='mb-10 mt-10' />
             <label className='text-lg font-normal'>Info Lebih Lanjut Hubungi Diklat :</label>
-            <div className='mt-5 text-sm font-thin lg:mr-[130vh] sm:mr-0'>
+            <div className='mt-5 text-sm font-thin'>
               <MdLocationOn className='absolute h-4 w-4' /> <span className='ml-7 '>Jl. Tubagus Ismail No.46 - 40134</span>
               <hr className='mr-16 mt-2 mb-2' />
 
@@ -81,6 +85,20 @@ function PelatihanHD() {
               <ActiveLink href='mailto:pelatihandialisis@yahoo.com'>
                 <a className='underline hover:text-[#1E90FF] relative'>
                   <MdEmail className='absolute h-5 w-4 top-[0px]' /> <span className='ml-7 '>pelatihandialisis@yahoo.com</span>
+                  <hr className='mr-16 mt-2 mb-2' />
+                </a>
+              </ActiveLink>
+
+              <ActiveLink href='https://www.instagram.com/diklat_rskg_nyrahabibie/'>
+                <a className='underline hover:text-[#1E90FF] relative'>
+                  <BsInstagram className='absolute h-5 w-4 top-[0px]' /> <span className='ml-7 '>@diklat_rskg_nyrahabibie</span>
+                  <hr className='mr-16 mt-2 mb-2' />
+                </a>
+              </ActiveLink>
+
+              <ActiveLink href='https://www.facebook.com/p/Pelatihan-Dialisis-100069877826341/?locale=id_ID'>
+                <a className='underline hover:text-[#1E90FF] relative'>
+                  <FaFacebook className='absolute h-5 w-4 top-[0px]' /> <span className='ml-7 '>Pelatihan Dialisis</span>
                   <hr className='mr-16 mt-2' />
                 </a>
               </ActiveLink>

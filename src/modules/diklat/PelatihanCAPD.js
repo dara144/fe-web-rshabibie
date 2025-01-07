@@ -5,6 +5,8 @@ import { MdEmail, MdLocationOn } from 'react-icons/md'
 import 'animate.css'
 import { IoIosCall, IoLogoWhatsapp } from 'react-icons/io'
 import CarouselPelatihanCAPD from './component/CarouselPelatihanCAPD'
+import { FaFacebook } from 'react-icons/fa'
+import { BsInstagram } from 'react-icons/bs'
 
 function PelatihanCAPD() {
   return (
@@ -69,7 +71,7 @@ function PelatihanCAPD() {
         <div className={style.h2}>
           <hr className='mb-10 mt-10' />
           <label className='text-lg font-normal'>Info Lebih Lanjut Hubungi Diklat :</label>
-          <div className='mt-5 text-sm font-thin lg:mr-[130vh] sm:mr-0'>
+          <div className='mt-5 text-sm font-thin'>
             <MdLocationOn className='absolute h-4 w-4' /> <span className='ml-7 '>Jl. Tubagus Ismail No.46 - 40134</span>
             <hr className='mr-16 mt-2 mb-2' />
 
@@ -90,6 +92,20 @@ function PelatihanCAPD() {
             <ActiveLink href='mailto:pelatihandialisis@yahoo.com'>
               <a className='underline hover:text-[#1E90FF] relative'>
                 <MdEmail className='absolute h-5 w-4 top-[0px]' /> <span className='ml-7 '>pelatihandialisis@yahoo.com</span>
+                <hr className='mr-16 mt-2 mb-2' />
+              </a>
+            </ActiveLink>
+
+            <ActiveLink href='https://www.instagram.com/diklat_rskg_nyrahabibie/'>
+              <a className='underline hover:text-[#1E90FF] relative'>
+                <BsInstagram className='absolute h-5 w-4 top-[0px]' /> <span className='ml-7 '>@diklat_rskg_nyrahabibie</span>
+                <hr className='mr-16 mt-2 mb-2' />
+              </a>
+            </ActiveLink>
+
+            <ActiveLink href='https://www.facebook.com/p/Pelatihan-Dialisis-100069877826341/?locale=id_ID'>
+              <a className='underline hover:text-[#1E90FF] relative'>
+                <FaFacebook className='absolute h-5 w-4 top-[0px]' /> <span className='ml-7 '>Pelatihan Dialisis</span>
                 <hr className='mr-16 mt-2' />
               </a>
             </ActiveLink>
