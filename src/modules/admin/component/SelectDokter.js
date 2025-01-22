@@ -2,7 +2,7 @@ import axi from '@lib/axios'
 import { Select } from '@mantine/core'
 import useSelectDokter from '../hooks/useSelectDokter'
 import { useJadwalDokterPage, types } from '@modules/dokter/hooks/useDokter'
-
+import { useState } from 'react'
 /**
  * @param {Object} [props]
  * @param {"ruanganDokterId"|"id"} props.name
@@ -10,7 +10,8 @@ import { useJadwalDokterPage, types } from '@modules/dokter/hooks/useDokter'
  */
 export default function SelectDokter(props) {
   const { name = 'ruanganDokterId', setImgURL } = props
-  const { ruangan, setIdRuang, idRuangDokter, setIdRuangDokter, dokter, searchDokter, setSearchDokter, isDisabled } = useSelectDokter(name, setImgURL)
+  const { ruangan, setIdRuang, idRuangDokter, setIdRuangDokter, dokter, searchDokter, setSearchDokter, isDisabled } =
+    useSelectDokter(name, setImgURL)
   /**@type {Select['propTypes']} */
   const optSelect = {
     placeholder: 'Pilih Dokter',
@@ -42,28 +43,29 @@ export default function SelectDokter(props) {
       setSearchDokter(data)
     },
     data: dokter,
-    disabled: isDisabled,
+    // disabled: isDisabled,
     searchable: true
   }
+  const { klinik, dispatch } = useJadwalDokterPage()
   return (
     <>
       <div className='mb-3'>
-        <label>Ruangan</label>
+        <label>Poliklinik</label>
         <Select
           placeholder='Pilih Ruangan'
-          data={ruangan}
+          data={ruangan} // klinik
           onChange={setIdRuang}
-          searchValue={useJadwalDokterPage.getState().klinik}
-          onSearchChange={klinik => useJadwalDokterPage.setState({ klinik })}
-          disabled={isDisabled}
-          searchable
+          // searchValue={klinik}
+          // onSearchChange={klinik => dispatch({ type: types.setKlinik, payload: klinik })}
+          // disabled={isDisabled}
+          // searchable
           required
         />
       </div>
-      <div className='mb-3'>
+      {/* <div className='mb-3'>
         <label>Dokter</label>
         <Select name={name} placeholder='Pilih Dokter' required {...optSelect} />
-      </div>
+      </div> */}
     </>
   )
 }

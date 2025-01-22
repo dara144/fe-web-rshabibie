@@ -1,10 +1,12 @@
 import { createStore, setData } from '@lib/zustand'
+import { jadwalDokter } from '../../../data/jadwal'
 
 export const initialState = {
-  jadwal: [],
-  message: '',
-  namaDokter: 'Dokter',
-  klinik: ''
+  // jadwal: [],
+  jadwalDokter: jadwalDokter
+  // message: '',
+  // namaDokter: 'Dokter',
+  // klinik: ''
 }
 const reducer = (state = initialState, { type, payload }) => {
   switch (type) {
@@ -18,5 +20,7 @@ const reducer = (state = initialState, { type, payload }) => {
 export const useJadwalDokterPage = createStore(initialState, reducer)
 export const types = {
   setJadwal: 'setJadwal',
+  setJadwalDokter: 'setJadwalDokter',
+  setKlinik: 'setKlinik',
   setMessage: 'setMessage'
 }

@@ -1,4 +1,3 @@
-
 import style from '@styles/Nav.module.css'
 import ActiveLink from '@component/ActiveLink'
 import { MdEmail, MdOutlineHealthAndSafety, MdOutlineLocationOn } from 'react-icons/md'
@@ -8,7 +7,7 @@ import Image from 'next/image'
 import NavMenu from './component/NavMenu'
 import Burger from './component/NavBurger'
 import { BsInstagram } from 'react-icons/bs'
-import { FaYoutube } from 'react-icons/fa6'
+import { FaYoutube } from 'react-icons/fa'
 export default function Nav({ children }) {
   const matches = useMediaQuery('(min-width: 900px)', true, { getInitialValueInEffect: false })
 
@@ -20,9 +19,7 @@ export default function Nav({ children }) {
             <MdEmail />
             <span>
               <ActiveLink href='mailto:rskginjal@yahoo.com?subject=Halo Saya Pasien....'>
-                <a>
-                  rskginjal@yahoo.com
-                </a>
+                <a>rskginjal@yahoo.com</a>
               </ActiveLink>
             </span>
           </x-contact>
@@ -31,9 +28,7 @@ export default function Nav({ children }) {
             <BsInstagram />
             <span>
               <ActiveLink href='https://www.instagram.com/rskg_habibie'>
-                <a>
-                  rskg_habibie
-                </a>
+                <a>rskg_habibie</a>
               </ActiveLink>
             </span>
           </x-contact>
@@ -42,9 +37,7 @@ export default function Nav({ children }) {
             <FaYoutube />
             <span>
               <ActiveLink href='http://www.youtube.com/@rskgny.r.a.habibie7558'>
-                <a>
-                  RSKG Ny.R.A. Habibie
-                </a>
+                <a>RSKG Ny.R.A. Habibie</a>
               </ActiveLink>
             </span>
           </x-contact>
@@ -52,10 +45,8 @@ export default function Nav({ children }) {
           <x-contact>
             <MdOutlineLocationOn />
             <span>
-              <ActiveLink href="https://maps.app.goo.gl/zzG7W4Gzwo7XWthXA">
-                <a>
-                  Jl. Tubagus Ismail No.46
-                </a>
+              <ActiveLink href='https://maps.app.goo.gl/zzG7W4Gzwo7XWthXA'>
+                <a>Jl. Tubagus Ismail No.46</a>
               </ActiveLink>
             </span>
           </x-contact>
@@ -68,11 +59,7 @@ export default function Nav({ children }) {
               </a>
             </ActiveLink>
           </x-logo>
-          {matches ? (
-            <NavMenu />
-          ) : (
-            <Burger />
-          )}
+          {matches ? <NavMenu /> : <Burger />}
         </nav>
       </header>
       {children}

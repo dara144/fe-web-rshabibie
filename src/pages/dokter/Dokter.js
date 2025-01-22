@@ -16,8 +16,6 @@ export default function Dokter() {
 }
 Dokter.getLayout = page => (
   <Nav>
-    <div className='absolute w-full'>
-      {page}
-    </div>
+    <div className='absolute w-full'>{page}</div>
   </Nav>
 )
