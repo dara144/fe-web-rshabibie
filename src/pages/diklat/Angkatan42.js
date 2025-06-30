@@ -1,20 +1,20 @@
 import Head from 'next/head'
 import Nav from '@layout/Nav'
-import DokterUmum from '@modules/dokter/DokterUmum'
+import Angkatan42 from '@modules/diklat/component/Angkatan42'
 
-export default function DokterUmumPage() {
+export default function Angkatan42Page() {
   return (
     <>
       <Head>
-        <title>Dokter Umum</title>
+        <title>Peserta Lulusan Pelatihan Dialisis</title>
         <meta name='description' content='website RSKG' />
         <link rel='icon' href='/logo.png' />
       </Head>
-      <DokterUmum />
+      <Angkatan42 />
     </>
   )
 }
-DokterUmumPage.getLayout = page => (
+Angkatan42Page.getLayout = page => (
   <Nav>
     <div className='absolute w-full'>
       {page}

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import style from '@styles/border.module.css'
-import border from '/public/border.png'
+import Line from '/public/border.png'
 
 export default function Border() {
   return (
@@ -10,10 +10,10 @@ export default function Border() {
           width: '100%'
         }}>
         <div className='grid grid-cols-4'>
-          <Image src={border} alt='border' />
-          <Image src={border} alt='border' />
-          <Image src={border} alt='border' />
-          <Image src={border} alt='border' />
+          <Image src={Line} alt='border' />
+          <Image src={Line} alt='border' />
+          <Image src={Line} alt='border' />
+          <Image src={Line} alt='border' />
         </div>
       </div>
     </main>

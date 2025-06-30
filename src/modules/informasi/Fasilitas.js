@@ -9,9 +9,9 @@ function Fasilitas() {
       <Text className={style.h1}
       >Fasilitas Dan Layanan RSKG</Text>
       <main className={style.wrapper}>
-        
-          <Border />
-          <CardSection />
+
+        <Border />
+        <CardSection />
 
       </main>
     </>

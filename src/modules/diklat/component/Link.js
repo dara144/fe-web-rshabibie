@@ -338,6 +338,13 @@ export default function Link() {
           </a>
         </ActiveLink>
       </div>
+      <div className="mb-2">
+        <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/Angkatan42'>
+          <a className='hover:text-[#1E90FF]'>
+            <span className={style.span}>Angkatan XXXXII (7 Januari - 30 April 2025)</span>
+          </a>
+        </ActiveLink>
+      </div>
     </>
   )
 }

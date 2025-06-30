@@ -54,12 +54,12 @@ function Bio4() {
                     <Grid.Col md={12} lg={7.5} xl={9}>
                       <div className='grid grid-cols-2'>
                         <Image
-                        width={320}
+                          width={320}
                           src={border}
                           alt="border"
                         />
                         <Image
-                        width={320}
+                          width={320}
                           src={border}
                           alt="border"
                         />

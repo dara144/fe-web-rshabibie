@@ -8,7 +8,7 @@ import ActiveLink from "@component/ActiveLink";
 import { Select } from '@mantine/core';
 import useWilayah from "../hooks/useWilayah";
 export default function PBaru() {
- const {searchValue,onSearchChange,provinsi,kabupaten,kecamatan, setIdProvinsi,setIdKabupaten} = useWilayah()
+  const { searchValue, onSearchChange, provinsi, kabupaten, kecamatan, setIdProvinsi, setIdKabupaten } = useWilayah()
   return (
     <>
       <main className={style.wrapper}>
@@ -76,26 +76,26 @@ export default function PBaru() {
             <br />
             <label className='font-semibold text-sm'>Provinsi</label>
             <Select
-               nothingFound="No options" onChange={setIdProvinsi} data={provinsi} placeholder="Pilih Provinsi" searchable/>
+              nothingFound="No options" onChange={setIdProvinsi} data={provinsi} placeholder="Pilih Provinsi" searchable />
             <br />
             <label className='font-semibold text-sm'>Kabupaten/Kota</label>
             <Select
-                searchValue={searchValue.kabupaten} 
-                onSearchChange={data => onSearchChange(prev=>({...prev,kabupaten:data}))}  
-                data={kabupaten}
-                onChange={setIdKabupaten}
-                placeholder="Pilih Kabupaten" 
-                nothingFound="No options" 
-                searchable />
+              searchValue={searchValue.kabupaten}
+              onSearchChange={data => onSearchChange(prev => ({ ...prev, kabupaten: data }))}
+              data={kabupaten}
+              onChange={setIdKabupaten}
+              placeholder="Pilih Kabupaten"
+              nothingFound="No options"
+              searchable />
             <br />
             <label className='font-semibold text-sm'>Kecamatan</label>
             <Select
-                searchValue={searchValue.kecamatan} 
-                onSearchChange={data => onSearchChange(prev=>({...prev,kecamatan:data}))}  
-                data={kecamatan} 
-                placeholder="Pilih Kecamatan" 
-                nothingFound="No options" 
-                searchable />
+              searchValue={searchValue.kecamatan}
+              onSearchChange={data => onSearchChange(prev => ({ ...prev, kecamatan: data }))}
+              data={kecamatan}
+              placeholder="Pilih Kecamatan"
+              nothingFound="No options"
+              searchable />
             <br />
             <label className='font-semibold text-sm'>Warga Negara</label>
             <Input

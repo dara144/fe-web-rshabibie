@@ -385,6 +385,13 @@ export default function NavBurger() {
                           </a>
                         </ActiveLink>
                       </li>
+                      <li className={style.li}>
+                        <ActiveLink activeClassName='text-[#1E90FF]' href='/diklat/GalleryDiklat'>
+                          <a className="hover:text-[#1E90FF] text-[#3f3f3f] font-medium" onClick={onClickOff}>
+                            Gallery Diklat
+                          </a>
+                        </ActiveLink>
+                      </li>
                     </ul>
                   </Accordion.Panel>
                 </Accordion.Item>

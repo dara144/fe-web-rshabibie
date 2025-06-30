@@ -136,6 +136,9 @@ export default function NavMenu() {
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/AngkatanCAPD'>
             <Menu.Item component='a'>Lulusan Pelatihan CAPD</Menu.Item>
           </ActiveLink>
+          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/diklat/GalleryDiklat'>
+            <Menu.Item component='a'>Gallery Diklat</Menu.Item>
+          </ActiveLink>
         </Menu.Dropdown>
       </Menu>
 

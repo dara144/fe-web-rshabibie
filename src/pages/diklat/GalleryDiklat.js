@@ -1,20 +1,20 @@
 import Head from 'next/head'
 import Nav from '@layout/Nav'
-import Clabsi from '@modules/mutu/component/Clabsi'
+import GalleryDiklat from '@modules/diklat/GalleryDiklat'
 
-export default function PenggunaanAPDPage() {
+export default function GalleryDiklatPage() {
   return (
     <>
       <Head>
-        <title>Data Surveilens Infeksi-Clabsi</title>
+        <title>Profil Diklat</title>
         <meta name='description' content='website RSKG' />
         <link rel='icon' href='/logo.png' />
       </Head>
-      <Clabsi />
+      <GalleryDiklat />
     </>
   )
 }
-PenggunaanAPDPage.getLayout = page => (
+GalleryDiklatPage.getLayout = page => (
   <Nav>
     <div className='absolute w-full'>
       {page}
