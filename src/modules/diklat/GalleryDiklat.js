@@ -11,6 +11,7 @@ import RuangDiskusi from "./component/RuangDiskusi";
 import RuangAuditorium from "./component/RuangAuditorium";
 import RuangSimulasi from "./component/RuangSimulasi";
 import Kegiatan from "./component/Kegiatan";
+import GalleryAngkatan from "./component/GalleryAngkatan";
 
 export default function GalleryDiklat() {
   return (
@@ -39,6 +40,8 @@ export default function GalleryDiklat() {
             <Grid.Col className="mb-5" md={12} lg={3} xl={3}> <RuangAuditorium />
             </Grid.Col>
             <Grid.Col className="mb-5" md={12} lg={3} xl={3}> <Kegiatan />
+            </Grid.Col>
+            <Grid.Col className="mb-5" md={12} lg={3} xl={3}> <GalleryAngkatan />
             </Grid.Col>
           </Grid>
         </div>

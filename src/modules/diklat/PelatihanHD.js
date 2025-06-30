@@ -36,8 +36,10 @@ function PelatihanHD() {
             <p className='text-md'>
               A. Tujuan Umum</p>
             <p className='text-md ml-5 mt-1 mb-3 font-thin'>Setelah mengikuti pelatihan ini peserta mampu memberikan asuhan keperawatan dialisis di Rumah Sakit (RS) dan Klinik Khusus Dialisis sesuai dengan kewenangannya. <ActiveLink activeClassName={'text-primary'} href='https://drive.google.com/file/d/1lw5IMBzgaOwx27pgs8q3fSRiqxyXNv4q/view?usp=sharing'>
-              <a className='text-[#1E90FF] italic'>Formulir Pendaftaran HD Perawat disini.</a>
-            </ActiveLink></p>
+              <a className='text-[#1E90FF] italic'>Formulir Pendaftaran Dialisis Perawat</a>
+            </ActiveLink> dan <ActiveLink activeClassName={'text-primary'} href='https://bit.ly/PENDAFTARANPELATIHANDIALISISBAGIPERAWAT'>
+                <a className='text-[#1E90FF] italic'>Lalu Klik Disini Untuk Lanjutan Pendaftaran Pelatihan Dialisis Bagi Perawat.</a>
+              </ActiveLink></p>
 
             <p className='text-md'>
               B. Tujuan Khusus </p>

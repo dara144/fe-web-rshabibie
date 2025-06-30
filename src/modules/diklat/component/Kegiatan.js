@@ -5,9 +5,9 @@ import style from '../assets/GalleryDiklat.module.css'
 import Image from "next/image";
 import { BiSearch } from "react-icons/bi";
 import { useState } from "react";
-import kegiatan from "../assets/image/Peserta Diklat.jpg"
-import kegiatan2 from "../assets/image/Peserta Diklat2.jpg"
-import kegiatan3 from "../assets/image/Peserta Diklat3.jpg"
+import kegiatan from "../assets/image/kegiatan ujian.jpg"
+import kegiatan2 from "../assets/image/kegiatan ujian2.jpg"
+import kegiatan3 from "../assets/image/kegiatan ujian3.jpg"
 import kegiatan4 from "../assets/image/kegiatan simulasi.png"
 import kegiatan5 from "../assets/image/kegiatan simulasi2.png"
 import kegiatan6 from "../assets/image/kegiatan simulasi3.png"
@@ -17,7 +17,8 @@ import kegiatan9 from "../assets/image/kegiatan simulasi6.png"
 import kegiatan10 from "../assets/image/HD.jpg"
 import kegiatan11 from "../assets/image/HD2.jpg"
 import kegiatan12 from "../assets/image/CAPD.jpg"
-import kegiatan13 from "../assets/image/fotokegiatan.png"
+import kegiatan13 from "../assets/image/kegiatan ujian4.jpg"
+import kegiatan14 from "../assets/image/kegiatan ujian5.jpg"
 
 export default function Kegiatan() {
   const { hovered, ref } = useHover();
@@ -28,10 +29,10 @@ export default function Kegiatan() {
         <Card.Section>
           <a ref={ref} className='relative block group'>
             <Image
-              src={kegiatan}
+              src={kegiatan11}
               className='rounded-md drop-shadow-lg object-cover transition ease-in delay-75 group-hover:scale-110 group-hover:opacity-5'
               alt='kegiatan'
-              width={1050}
+              width={950}
               priority
             />
             {hovered && <BiSearch className='absolute z-10 top-1/3 left-0 right-0 mr-auto ml-auto text-5xl text-[#1E90FF]' onClick={() => setOpened(true)} />}
@@ -154,6 +155,15 @@ export default function Kegiatan() {
             <Carousel.Slide>
               <Image className={style.image}
                 src={kegiatan13}
+                width={900}
+                height={500}
+                priority
+                alt="kegiatan"
+              />
+            </Carousel.Slide>
+            <Carousel.Slide>
+              <Image className={style.image}
+                src={kegiatan14}
                 width={900}
                 height={500}
                 priority

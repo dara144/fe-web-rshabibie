@@ -34,7 +34,9 @@ function PelatihanCAPD() {
           <Title className='text-xl mb-3 font-bold'>Materi <label className={style.h3}>Pelatihan CAPD</label></Title>
           <p className='text-md'>
             A. Tujuan Umum</p>
-          <p className='text-md ml-5 mt-1 mb-3 font-thin'>Setelah mengikuti pelatihan ini peserta mampu melakukan asuhan keperawatan pada pasien CAPD.</p>
+          <p className='text-md ml-5 mt-1 mb-3 font-thin'>Setelah mengikuti pelatihan ini peserta mampu melakukan asuhan keperawatan pada pasien CAPD. <ActiveLink activeClassName={'text-primary'} href='https://drive.google.com/file/d/17aiZ0rCervuflOSsw2jIq3xbhpBH752b/view?usp=sharing'>
+            <a className='text-[#1E90FF] italic'>Klik Disini Untuk Pendaftaran Pelatihan CAPD Bagi Perawat.</a>
+          </ActiveLink></p>
 
           <p className='text-md'>
             B. Tujuan Khusus </p>

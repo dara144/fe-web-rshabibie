@@ -291,6 +291,13 @@ export default function Angkatan1() {
       "Dokter Umum": 0,
       "Perawat": 50,
       "Teknisi": 0
+    },
+    {
+      "name": "Angkatan XXXXII",
+      "Dokter Penyakit Dalam": 0,
+      "Dokter Umum": 0,
+      "Perawat": 50,
+      "Teknisi": 0
     }
 
   ]

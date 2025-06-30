@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer';
 import diklat from '../diklat/assets/image/Diklat2.jpg';
 import VisiMisi from '../diklat/assets/image/visi misi fix.jpeg';
 import komitmen from '../diklat/assets/image/komitmen diklat fix.jpg';
-import pelatihanDiklat from '../diklat/assets/image/ProfilDiklat.jpg';
+import pelatihanDiklat from '../diklat/assets/image/ProdilDiklat.jpg';
 import struktur from '../diklat/assets/image/struktur diklat.jpg';
 import Image from 'next/future/image';
 import { IoLogoWhatsapp } from 'react-icons/io5';
@@ -69,7 +69,7 @@ function ProfilDiklat() {
               <p className='text-md mt-5 mr-3 font-thin'>Pada saat ini untuk pelatihan Dialisis menggunakan metode <i>Blended</i> , yaitu gabungan <i>on line</i> dan <i>off line</i> (Klassikal). Materi disampaikan secara berupa teori, latihan kasus (Diskusi), praktek berupa simualsi dan praktek mandiri secara langsung kepada pasien. Pelatihan ini berlangsung selama kurang lebih 89 hari.
                 <br />
                 <br />
-                Narasumber pada pelatihan ini adalah para pakar Konsultan Ginjal Hipertensi dan para perawat dialysis yang sudah tersertifikasi, serta para pembimbing klinik. Biaya pelatihan untuk tahun 2025 sebesar Rp 21.000.000,- ( Dua Puluh satu Juta Rupiah) teramsuk biaya Uji Kompetesni CBP INNA.
+                Narasumber pada pelatihan ini adalah para pakar Konsultan Ginjal Hipertensi dan para perawat dialysis yang sudah tersertifikasi, serta para pembimbing klinik. Biaya pelatihan untuk tahun 2025 sebesar Rp 22.000.000,- ( Dua Puluh Dua Juta Rupiah, *<i>harga sewaktu-waktu berubah</i>) termasuk biaya Uji Kompetesni CBP INNA.
               </p>
               <br />
               <li>Pelatihan <i>Continous Ambulatory peritoneal Dialysis </i>(CAPD) untuk Perawat. Pelatihan ini bertujuan untuk agar setelah mengikuti pelatihan CAPD peserta mampu melakukan asuhan keperawatan pasien CAPD. Pelatihan ini berbasis kompetensi, yang memungkinkan peserta untuk :
