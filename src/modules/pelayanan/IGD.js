@@ -5,84 +5,18 @@ import Image from 'next/future/image'
 import igd from './assets/image/IGD.jpg'
 import PIGD from './assets/image/PIGD.JPG'
 import { useState } from 'react'
-import border from './assets/image/border.png'
 import { useInView } from 'react-intersection-observer'
 
 function IGD() {
-  const [opened, setOpened] = useState(false);
   const { ref: myRef, inView: myImageIsVisible } = useInView()
   const { ref: myRef1, inView: myImageIsVisible1 } = useInView()
   return (
     <>
       <Text className={style.h1}
-      >Instalasi Gawat Darurat</Text>
+      >Instalasi Gawat Darurat (IGD)</Text>
       <main className={style.wrapper}>
         <Border />
-        <div className={style.h2}>
-          <p className='text-md'>INFORMASI UMUM</p>
-          <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-            <List.Item>IGD RSKG Ny. R.A. Habibie Bandung buka 24 jam terus menerus</List.Item>
-            <List.Item>IGD RSKG Ny. R.A. Habibie Bandung melayani pasien gawat darurat maupun tidak gawat darurat</List.Item>
-            <List.Item>Tenaga medis IGD RSKG Ny. R.A. Habibie Bandung selalu on dite dan bergilir</List.Item>
-            <List.Item>IGD RSKG Ny. R.A. Habibie Bandung menerima pasien umum (datang sendiri) dan pasien rujukan baik dari dokter praktek, bidan maupun rumah sakit lainnya</List.Item>
-          </List>
-          <i className='text-[#1E90FF] font-[350] px-12 cursor-pointer'
-            onClick={() => setOpened(true)}>Klik disini untuk melihat informasi lebih detail..</i>
-        </div>
-
-        <div className={style.h2}>
-          <Modal
-            size='95%'
-            opened={opened}
-            onClose={() => setOpened(false)}
-          >
-            <div className='mx-[2vw]'>
-              <div className={style.h2}>
-                <Grid>
-                  <Grid.Col md={12} lg={5} xl={4}>
-                    <Image className='rounded-lg shadow-xl'
-                      width={500}
-                      src={igd}
-                      alt="IGD"
-                    />
-                  </Grid.Col>
-                  <Grid.Col md={12} lg={7} xl={8}>
-                    <div className='grid grid-cols-2'>
-                      <Image className={style.border}
-                        width={500}
-                        src={border}
-                        alt="border"
-                      />
-                      <Image className={style.border}
-                        width={500}
-                        src={border}
-                        alt="border"
-                      />
-                    </div>
-                    <p className='text-md mt-3'>TATA TERTIB</p>
-                    <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                      <List.Item>Keluarga dan pasien wajib menjaga ketenangan dan ketertiban selama berada diruangan IGD RSKG Ny. R.A. Habibie Bandung</List.Item>
-                      <List.Item>Pasien yang masuk ke ruang periksa IGD hanya boleh didampingi oleh 1-2 orang</List.Item>
-                    </List>
-                    <p className='text-md mt-6'>KRITIK DAN SARAN</p>
-                    <p className='text-md mt-3 font-thin text-[#4B3F3F]'>Kritik dan saran pelayanan IGD dapat disampaikan melalui kotak saran yang sudah disediakan.</p>
-                  </Grid.Col>
-                </Grid>
-                <p className='text-md mt-6'>DOKTER KONSULEN RSKG NY. R.A. HABIBIE BANDUNG</p>
-                <p className='text-md mt-3 font-thin text-[#4B3F3F]'>Dokter konsulen yang bisa melayani secara on call 24 call dengan spesialisasi sebagai berikut :</p>
-                <List className='list-decimal text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                  <List.Item>Spesialis Penyakit Dalam</List.Item>
-                  <List.Item>Spesialis Bedah Vaskuler</List.Item>
-                  <List.Item>Spesialis Jantung</List.Item>
-                  <List.Item>Spesialis Urologi</List.Item>
-                </List>
-              </div>
-            </div>
-          </Modal>
-        </div>
-      </main>
-      <div className={style.bg}>
-        <div className={style.wrapper}>
+        <div className={style.bg}>
           <div className={style.h2}>
             <Grid>
               <Grid.Col md={12} lg={5} xl={4}>
@@ -96,26 +30,12 @@ function IGD() {
                 </div>
               </Grid.Col>
               <Grid.Col md={10} lg={7} xl={8}>
-                <List className='list-none text-md mt-3' withPadding>
-                  <List.Item>PELAYANAN</List.Item>
-                  <List.Item className='font-[350] text-[#4B3F3F]'>IGD RSKG Ny. R.A. Habibie Bandung melayani kasus-kasus :</List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Penyakit Dalam</List.Item>
-                    <List.Item>Penyakit Bedah</List.Item>
-                  </List>
-                </List>
-                <List className='list-none text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                  <List.Item>Prioritas pelayanan gawat darurat :</List.Item>
-                  <List.Item>Pasien yang harus segera dilayani dan didahulukan adalah :</List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Gangguan pernafasan dan jalan nafas</List.Item>
-                    <List.Item>Kehilangan cairan yang banyak (muntah, diare, demam berdarah)</List.Item>
-                    <List.Item>Keracunan</List.Item>
-                    <List.Item>Kejang-kejang</List.Item>
-                    <List.Item>Penurunan kesadaran</List.Item>
-                  </List>
-                </List>
-
+                <p className='text-md px-5 mb-2'>INFORMASI UMUM</p>
+                <p className='text-md font-thin px-5'>Instalasi Gawat Darurat (IGD) RS Khusus Ginjal Ny. R.A. Habibie memberikan layanan medis darurat selama <b>24 jam</b>, setiap hari, dengan sistem penanganan cepat dan terintegrasi. Meskipun kami merupakan rumah sakit khusus di bidang nefrologi, <b>IGD kami terbuka untuk seluruh pasien dengan kondisi gawat darurat</b>, baik yang berkaitan dengan penyakit ginjal maupun <b>keluhan umum non-ginjal</b>, seperti gangguan pernapasan, nyeri dada, trauma ringan hingga sedang, demam tinggi, dan lainnya.
+                  <br />
+                  <br />
+                  Pasien yang datang akan ditangani oleh <b>tim medis profesional</b> yang terdiri dari dokter jaga, perawat terlatih, dan tenaga pendukung lainnya yang siap memberikan pertolongan pertama secara cepat, tepat, dan aman.
+                </p>
               </Grid.Col>
               <Grid.Col md={12} lg={5} xl={4}>
                 <div
@@ -128,21 +48,24 @@ function IGD() {
                 </div>
               </Grid.Col>
               <Grid.Col md={10} lg={7} xl={8}>
-                <List className='list-none text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                  <List.Item>Pasien yang pelayanannya sementara bisa ditangguhkan :</List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Demam, batuk, pilek</List.Item>
-                    <List.Item>Sakit perut dan diare ringan</List.Item>
-                    <List.Item>Kecelakaan lalu lintas ringan</List.Item>
-                    <List.Item>Penyakit kulit</List.Item>
-                    <List.Item>Tidak bisa BAB dan BAK</List.Item>
-                  </List>
-                </List>
+                <p className='text-md px-5'>FASILITAS & LAYANAN PENUNJANG DI IGD:</p>
+                <ul className='list-disc text-md font-thin mt-3 px-14'>
+                  <li><b>Laboratorium 24 jam</b></li>
+                  <li><b>Radiologi 24 jam</b></li>
+                  <li><b>Hemodialisis Darurat</b></li>
+                  <li><b>Layanan Farmasi 24 jam</b></li>
+                  <li><b>Ambulans Siaga</b></li>
+                  <li><b>Sistem Triase</b> untuk memprioritaskan pasien berdasarkan tingkat kegawatdaruratannya</li>
+                </ul>
+                <br />
+                <p className='text-md font-thin'>
+                  Dengan komitmen pada keselamatan dan kenyamanan pasien, kami memastikan bahwa setiap individu yang datang ke IGD mendapatkan layanan yang responsif dan profesional, sesuai dengan standar kegawatdaruratan medis
+                </p>
               </Grid.Col>
             </Grid>
           </div>
         </div>
-      </div>
+      </main>
     </>
   )
 
