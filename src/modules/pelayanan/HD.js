@@ -7,8 +7,10 @@ import { useState } from 'react'
 import border from './assets/image/border.png'
 import PHD from './assets/image/PHD.jpg'
 import PHDAnak from './assets/image/PHDAnak.jpg'
+import PHDAnak2 from './assets/image/PHDAnak2.jpg'
 import HDICU1 from './assets/image/HDICU1.jpg'
 import HDICU2 from './assets/image/HDICU2.jpg'
+import HDICU4 from './assets/image/HDICU4.JPG'
 import HDReg1 from './assets/image/HDReg1.jpg'
 import HDReg2 from './assets/image/HDReg2.jpg'
 import HDReg3 from './assets/image/HDReg3.jpg'
@@ -16,6 +18,8 @@ import HDReg4 from './assets/image/HDReg4.jpg'
 import HDReg5 from './assets/image/HDReg5.jpg'
 import HDReg6 from './assets/image/HDReg6.jpg'
 import HDReg7 from './assets/image/HDReg7.jpg'
+import HDReg8 from './assets/image/HDReg8.jpg'
+import HDReg9 from './assets/image/HDReg9.jpg'
 import HDVip1 from './assets/image/HDVip1.jpg'
 import HDVip2 from './assets/image/HDVip2.jpg'
 import HDVip3 from './assets/image/HDVip3.jpg'
@@ -34,125 +38,24 @@ function HD() {
   const { hovered: hovered3, ref: ref3 } = useHover();
   const { hovered: hovered4, ref: ref4 } = useHover();
   const { hovered: hovered5, ref: ref5 } = useHover();
+  const { hovered: hovered6, ref: ref6 } = useHover();
+  const { hovered: hovered7, ref: ref7 } = useHover();
   const [opened1, setOpened1] = useState(false);
   const [opened2, setOpened2] = useState(false);
   const [opened3, setOpened3] = useState(false);
   const [opened4, setOpened4] = useState(false);
   const [opened5, setOpened5] = useState(false);
+  const [opened6, setOpened6] = useState(false);
+  const [opened7, setOpened7] = useState(false);
   return (
     <>
       <Text className={style.h1}
-      >Hemodialisis (HD)</Text>
+      >Instalasi Dialisis</Text>
       <main className={style.wrapper}>
         <Border />
         <div className={style.h2}>
-          <p className='text-md mt-3 font-thin'>Instalasi Hemodialisis RS. Khusus Ginjal Ny. R.A Habibie sebagai unit pelaksanaan pelayanan yang bertugas melaksanakan pelayanan kesehatan bagi masyarakat umum yang mengalami gangguan fungsi ginjal  baik akut maupun kronik.  Hemodialisis (HD) adalah salah satu terapi pengganti  ginjal yang menggunakan alat khusus dengan tujuan  mengatasi gejala dan tanda akibat LFG yang rendah sehingga diharapkan dapat memperpanjang usia dan meningkatkan kualitas hidup pasien.
-            <br />
-            <br />
-            Pelayanan hemodialisis sudah banyak dilakukan diseluruh Indonesia mulai dari Rumah Sakit Besar hingga Klinik Pratama, diperlukan standar pelayanan Hemodialisis. Manajemen pelayanan hemodialisis   bertujuan untuk memberikan pelayanan prima  dan berorientasi pada kepuasan pelanggan dan keselamatan pasien.  <i className='text-[#1E90FF] font-thin cursor-pointer'
-              onClick={() => setOpened(true)}>Klik disini untuk melihat informasi lebih detail..</i>
+          <p className='text-md mt-3 font-thin'>Instalasi Dialisis RS Khusus Ginjal Ny. R.A. Habibie menyediakan layanan terapi pengganti ginjal bagi pasien dengan gangguan ginjal kronik maupun akut. Dengan dukungan tenaga medis profesional, peralatan modern, dan sistem pelayanan terpadu, kami memberikan dua jenis layanan utama: <b>Hemodialisis dan CAPD (Continuous Ambulatory Peritoneal Dialysis)</b>.
           </p>
-        </div>
-
-        <div className={style.h2}>
-          <Modal
-            size='95%'
-            opened={opened}
-            onClose={() => setOpened(false)}
-          >
-            <div className='mx-[2vw]'>
-              <div className={style.h2}>
-                <Grid>
-                  <Grid.Col md={12} lg={5} xl={4}>
-                    <Image className='rounded-lg overflow-clip shadow-xl'
-                      width={500}
-                      src={hd}
-                      alt="HD"
-                      loading='lazy'
-                    />
-                  </Grid.Col>
-                  <Grid.Col md={12} lg={7} xl={8}>
-                    <div className='grid grid-cols-2'>
-                      <Image className={style.border}
-                        src={border}
-                        alt="border"
-                        loading='lazy'
-                      />
-                      <Image className={style.border}
-                        src={border}
-                        alt="border"
-                        loading='lazy'
-                      />
-                    </div>
-                    <List className='list-none text-md mt-3'>
-                      <List.Item>STANDAR KETENAGAAN</List.Item>
-                      <List className='list-decimal text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                        <List.Item>Tim terdiri dari : Konsultan ginjal hipertensi, dokter jaga, perawat sertifikat pelatihan HD, teknisi, administrasi tenaga pendukung lainnya.</List.Item>
-                        <List.Item>Kompetensi Perawat HD : Sertifikat pelatihan Ginjal Hipertensi, Sertifikat pelatihan BHD - BHL Resertifikasisetiap 2 tahun, Uji Kompetensi Kredensialing, Komite Keperawatan, Surat Penugasan Klinis.</List.Item>
-                      </List>
-                      <br />
-                      <List.Item>MASALAH KEPERAWATAN/DIAGNOSA KEPERAWATAN</List.Item>
-                      <List className='list-decimal text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                        <List.Item>Sesuai hasil kajian.</List.Item>
-                        <List.Item>Tujuan dan target terukur.</List.Item>
-                      </List>
-                    </List>
-                  </Grid.Col>
-                </Grid>
-                <br />
-                <List className='list-none text-md mt-3'>
-                  <List.Item>FASILITAS RUANG HEMODIALISA</List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Memenuhi standar keamanan gedung sesuai aturan pemerintah.</List.Item>
-                    <List.Item>Tersedia Generator listrik.</List.Item>
-                    <List.Item>Tersedia fasilitas kebakaran(APAR / Hidran).</List.Item>
-                    <List.Item>Tempat penyimpanan B3 (MSDS & simbol).</List.Item>
-                    <List.Item>Jalur Evakuasi dan emergency Call sistem.</List.Item>
-                    <List.Item>Tempat tidur/kursi pasien harus memiliki pengaman sesuai standar K3RS.</List.Item>
-                    <List.Item>Lingkungan aman, nyaman dan privasi pasien terjaga.</List.Item>
-                    <List.Item>Peralatan medis standar seperti stetoskop, tensimeter, timbangan berat badan, termometer dan sebagainya dengan jumlahsesuai kebutuhan. Troli emergensidan perlengkapan RJP sekurang-kurangnya terdiri dari ambu viva, defibrillator, peralatan suction, endotracheal tube, Monitor EKG, oksimeter.</List.Item>
-                    <List.Item>Ruang Reuse dan penyimpanan dialiser reuse, peralatan reuse dialiser manual atau otomatis, ruanganpengolahan air (AAMI standard). Ruangan sterilisasi alat ruangan penyimpanan obat & alat/ BMHP (suhu terpantau) Mempunyai sarana pembuangan dan pengolahan limbah medis.</List.Item>
-                  </List>
-                  <br />
-                  <List.Item>PERALATAN HEMODIALISIS</List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Mesin hemodialisis yang siap pakai dan spesifikasi teknik sesuaistandar keselamatan pasien.</List.Item>
-                    <List.Item>Minimal terdapat 1 mesin cadangan yang siap setiap saat di unit dialisis untuk setiap 6 mesin HD.</List.Item>
-                    <List.Item>Tersedia ruang untuk perbaikan Haemodialis mesin <i>(workshop).</i></List.Item>
-                    <List.Item>Disinfeksi rutin mesin hemodialisis yang aktif ataupun cadangan dilakukan sesuai SPO/IK.</List.Item>
-                    <List.Item>Desinfeksi luar dan dalam mesin.</List.Item>
-                    <List.Item>SPO/IK selalu berada di dekat mesin.</List.Item>
-                    <List.Item>Kalibrasi mesin setiap 6 Bulan.</List.Item>
-                  </List>
-                  <br />
-                  <List.Item>IMPLEMENTASI (PROSEDUR HD) :</List.Item>
-                  <List className='list-decimal text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Teknik streril.</List.Item>
-                    <List.Item>Hand Hygiene <i>(5 moment).</i></List.Item>
-                    <List.Item>Gunakan APD yang standar (Gogle, apron, masker, sarung tangan).</List.Item>
-                    <List.Item>Teknik Punksi dan kanulasi diperhatikan (memberikan rasa aman dan memberikan rasa aman dan nyaman bagi pasien).</List.Item>
-                    <List.Item>Pemberian antikoagulansia.</List.Item>
-                  </List>
-                  <br />
-                  <List.Item>PENGENDALIAN INFEKSI</List.Item>
-                  <List className='list-decimal text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Seluruh staf medik dan perawat dilatih untuk dapat melaksanakan pencegahan umum <i>(universal precaution)</i> di unit dialisis.</List.Item>
-                    <List.Item>Pencegahan umum dilaksanakan di unit dialisis pada segala tindakan perawatan pasien.</List.Item>
-                    <List.Item>Tersedia Sarana untuk mencuci tangan <i>(wastafel/hand rub)</i> di setiap area pelayanan pasien sehingga cuci tangan dapat dilakukan sebelum dan sesudah kontak dengan pasien.</List.Item>
-                    <List.Item>Semua staf termasuk penjaga unit dialisis diajarkandengan instruksi yang jelas dalam menangani tumpahan darah dan bahan kimia di alat - alat dan lantai.</List.Item>
-                    <List.Item>Tersedia pembuangan sampah infeksi dan non Infeksi semua peralatan yang ternodai oleh darahharus di rendam dan dibersihkan dengan larutan sodium hipoklorit 1:100 jika peralatan itu tahan terhadap bahan kimia tersebut.</List.Item>
-                    <List.Item>Semua pasien baru atau pasien yang kembalike unit dialisis setelah menjalani dialisis di lokasi yang mempunyai risiko tnggi atau tidak diketahui derajat risikonya harus diperiksakembali HbsAg dan Anti - HCV. Isolasi mesin hemodialisis hanya diharuskan pada pengidap virus Hepatitis B (VHB), tidak padapengidap virus Hepatitis C (VHC) dan HIV.</List.Item>
-                  </List>
-                  <br />
-                  <List.Item>PENGOLAHAN AIR <i>(WATER TREATMENT)</i></List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Lebih disukai ada dua sistim pengolahan air : Setiap sistim pengolahan air meliputi filter karbon, filter sedimen, water softener, reverse osmosis.</List.Item>
-                    <List.Item>Komponen - komponen sistim air diatur dan dipelihara sehingga kadar kontaminasi bahan - bahan kimia dan bakteri pada air yang dihasilkan tidak melebihi standarkualitas air untuk hemodialisis.</List.Item>
-                  </List>
-                </List>
-              </div>
-            </div>
-          </Modal>
         </div>
       </main>
 
@@ -169,80 +72,54 @@ function HD() {
                     alt="HD"
                     priority
                   />
+                  <div
+                    ref={myRef1}
+                  >
+                    <Image className={`${style.image} ${myImageIsVisible1 ? style.animateShowImage1 : style.animateHiddenImage1}`}
+                      src={PHD}
+                      alt="Pelayanan HD"
+                      priority
+                    />
+                  </div>
+                  <div
+                    ref={myRef2}
+                  >
+                    <Image className={`${style.image} ${myImageIsVisible2 ? style.animateShowImage1 : style.animateHiddenImage1}`}
+                      src={HDReg9}
+                      alt="Pelayanan HD Khusus Anak"
+                      priority
+                    />
+                  </div>
                 </div>
               </Grid.Col>
               <Grid.Col md={12} lg={7} xl={8}>
-                <List className='list-none text-md mt-3' withPadding>
-                  <List.Item>KONSEP <span className='text-[#1E90FF]'>PELAYANAN HD</span></List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Dilakukan secara konprehensif (mulai  pengkajian  evaluasi).</List.Item>
-                    <List.Item>Pelayanan dilakukan sesuai Standar Prosedur Operasional HD dan Intruksi Kerja.</List.Item>
-                    <List.Item>Peralatan yang tersedia harus memenuhi kriteria standar (kalibrasi seara berkala oleh badan terakreditasi).</List.Item>
-                    <List.Item>Semua tindakan harus terdokumentasi di dalam CPPT/form pemantauan HD dalam rekam medis pasien.</List.Item>
-                    <List.Item>Harus ada sistem monitoring dan evaluasi.</List.Item>
-                    <List.Item>Persiapan  mesin dan peralatan.</List.Item>
-                    <List.Item>Persiapan Pasien.</List.Item>
-                  </List>
-                </List>
-              </Grid.Col>
-              <Grid.Col md={12} lg={4} xl={3.5}>
-                <div
-                  ref={myRef1}
-                >
-                  <Image className={`${style.image} ${myImageIsVisible1 ? style.animateShowImage1 : style.animateHiddenImage1}`}
-                    src={PHD}
-                    alt="Pelayanan HD"
-                    priority
-                  />
-                </div>
-              </Grid.Col>
-              <Grid.Col md={12} lg={7} xl={8}>
-                <List className='list-none text-md mt-3' withPadding>
-                  <List.Item>PENGKAJIAN YANG MELIPUTI :</List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Kondisi pasien secara umum (mental, fisik).</List.Item>
-                    <List.Item>Informed consent (Pasien baru dan pasien lama  diulang setelah 6 bulan, dst).</List.Item>
-                    <List.Item>Gelang identitas.</List.Item>
-                    <List.Item>Pemeriksaan fisik (TTV, edema, IDWG, BBK).</List.Item>
-                    <List.Item>Nyeri (Skala VAS).</List.Item>
-                    <List.Item>Resiko Jatuh gelang/ pita kuning, Alergigelang / pita merah.</List.Item>
-                    <List.Item>Persiapan Pasien.</List.Item>
-                    <List.Item>Nutrisi (malnutrisi).</List.Item>
-                    <List.Item>Dokumentasi dalam CPPT/form pemantauan HD.</List.Item>
-                  </List>
-                </List>
-              </Grid.Col>
-              <Grid.Col md={12} lg={4} xl={3.5}>
-                <div
-                  ref={myRef2}
-                >
-                  <Image className={`${style.image} ${myImageIsVisible2 ? style.animateShowImage1 : style.animateHiddenImage1}`}
-                    src={PHDAnak}
-                    alt="Pelayanan HD Khusus Anak"
-                    priority
-                  />
-                </div>
-              </Grid.Col>
-              <Grid.Col md={12} lg={7} xl={8}>
-                <List className='list-none text-md mt-3' withPadding>
-                  <List.Item>PROSEDUR <span className='text-[#1E90FF]'>PELAYANAN HD</span></List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Ada dokter yang bertugas dan siap menerima konsultasi jika diperlukan.</List.Item>
-                    <List.Item>Petunjuk BHD tersedia dan semua stafmedik danperawat dialisis pernah mendapat pelatihan melakukan BHD.</List.Item>
-                    <List.Item>Gelang identitas.</List.Item>
-                    <List.Item>Pemeriksaan fisik (TTV, edema, IDWG, BBK).</List.Item>
-                    <List.Item>Nyeri (Skala VAS).</List.Item>
-                    <List.Item>Resiko Jatuh gelang/ pita kuning, Alergigelang / pita merah.</List.Item>
-                    <List.Item>Persiapan Pasien.</List.Item>
-                    <List.Item>Nutrisi (malnutrisi).</List.Item>
-                    <List.Item>Dokumentasi dalam CPPT/form pemantauan HD.</List.Item>
-                  </List>
-                </List>
+                <p className='text-md px-5 mb-2'>LAYANAN<span className='text-[#1E90FF]'> HEMODIALISIS</span></p>
+                <p className='text-md font-thin px-5'>
+                  Hemodialisis dilakukan dengan menggunakan mesin dan dializer yang berfungsi untuk menyaring racun, kelebihan cairan, dan limbah dari dalam darah. Proses ini dilakukan secara berkala dan diawasi langsung oleh dokter dan perawat dialisis yang bersertifikat. <b>Fasilitas</b> kami dilengkapi dengan ruang perawatan yang nyaman, sistem pemantauan pasien secara real-time, dan standar kebersihan tinggi untuk mencegah infeksi.
+                </p>
+                <br />
+                <br />
+                <p className='text-md px-5 mb-2'>KEUNGGULAN HEMODIALISIS <span className='text-[#1E90FF]'> DI RSKG Ny. R. A. HABIBIE:</span></p>
+                <ul className='list-disc text-md font-thin mt-3 px-14'>
+                  <li>Dializer Single Use (dializer sekali pakai)</li>
+                  <li>Ruang Isolasi Hemodialisis untuk pasien HbsAg positif, B 20 (HIV) positif,  infeksi paru (TBC dan Covid)</li>
+                  <li>Ruangan Hemodialisis dengan ACH lebih dari 12 x / menit , yang aman  digunakan pasien dengan resiko penularan tinggi lewat udara</li>
+                  <li>Ruang Hemodialisis untuk dewasa dan anak usia 5-18 tahun (VIP, Utama dan Reguler)</li>
+                  <li>Adanya perawat asuh dimana satu perawat bertanggung jawab untuk 3 pasien agar dapat memonitoring dan membimbing kesehatan pasien secara komprehensif</li>
+                  <li>Memberikan terapi Eritropoietin (Epo) rutin 1x/minggu untuk meningkatkan kadar hemoglobin bagi peserta BPJS yang menjalani HD rutin 2x/minggu</li>
+                  <li>Melayani pasien umum, BPJS dan kontraktor</li>
+                </ul>
+                <br />
+                <br />
+                <p className='text-md px-5 mb-2'>JADWAL LAYANAN<span className='text-[#1E90FF]'> HEMODIALISIS:</span></p>
+                <ul className='list-disc text-md font-thin mt-3 px-14'>
+                  <li><b>Senin - Sabtu</b></li>
+                  <li><b>Pukul 07.00 - 19.00 WIB</b></li>
+                  <li>Dilayani dalam 2 shift sesuai jadwal yang telah ditentukan.</li>
+                </ul>
               </Grid.Col>
             </Grid>
-
             <p className='text-md mt-5 font-thin mb-5'>Ruang Hemodialisa Rumah Sakit Khusus Ginjal Ny. R.A. Habibie memiliki beberapa jenis ruang hemodialisa, yaitu :</p>
-
             <Carousel slideSize="30%" slideGap="lg" loop align="start">
               <Carousel.Slide>
                 <a ref={ref1} className='relative block group'>
@@ -273,6 +150,14 @@ function HD() {
                         src={HDICU2}
                         width={800}
                         height={500}
+                        loading='lazy'
+                        alt="Hemodialisa ICU"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDICU4}
+                        width={800}
                         loading='lazy'
                         alt="Hemodialisa ICU"
                       />
@@ -321,7 +206,16 @@ function HD() {
                     </Carousel.Slide>
                     <Carousel.Slide>
                       <Image className={style.image}
-                        src={HDReg3}
+                        src={HDReg8}
+                        width={800}
+                        height={500}
+                        loading='lazy'
+                        alt="Hemodialisa Reguler"
+                      />
+                    </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg9}
                         width={800}
                         height={500}
                         loading='lazy'
@@ -349,15 +243,6 @@ function HD() {
                     <Carousel.Slide>
                       <Image className={style.image}
                         src={HDReg6}
-                        width={800}
-                        height={500}
-                        loading='lazy'
-                        alt="Hemodialisa Reguler"
-                      />
-                    </Carousel.Slide>
-                    <Carousel.Slide>
-                      <Image className={style.image}
-                        src={HDReg7}
                         width={800}
                         height={500}
                         loading='lazy'
@@ -458,7 +343,7 @@ function HD() {
               </Carousel.Slide>
 
               <Carousel.Slide>
-                <a ref={ref4} className='relative block group'>
+                <a ref={ref5} className='relative block group'>
                   <Image
                     src={PHDAnak}
                     className='rounded-md drop-shadow-lg object-cover transition ease-in delay-75 group-hover:scale-110 group-hover:opacity-5'
@@ -481,6 +366,15 @@ function HD() {
                         alt="Hemodialisa Anak"
                       />
                     </Carousel.Slide>
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={PHDAnak2}
+                        width={800}
+                        height={500}
+                        priority
+                        alt="Hemodialisa Anak"
+                      />
+                    </Carousel.Slide>
                   </Carousel>
                 </Modal>
                 <div className='p-5'>
@@ -489,13 +383,71 @@ function HD() {
                   </Group>
                 </div>
               </Carousel.Slide>
+              <Carousel.Slide>
+                <a ref={ref6} className='relative block group'>
+                  <Image
+                    src={HDReg3}
+                    className='rounded-md drop-shadow-lg object-cover transition ease-in delay-75 group-hover:scale-110 group-hover:opacity-5'
+                    alt='Hemodialisa ICU'
+                    priority />
+                  {hovered6 && <BiSearch className='absolute z-10 top-1/3 left-0 right-0 mr-auto ml-auto text-5xl text-[#1E90FF]' onClick={() => setOpened6(true)} />}
+                </a>
+                <Modal
+                  size='90%'
+                  opened={opened6}
+                  onClose={() => setOpened6(false)}
+                >
+                  <Carousel className={style.carousel} slideSize="70%" slideGap="md" >
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg3}
+                        width={800}
+                        height={500}
+                        priority
+                        alt="Hemodialisa Airborne"
+                      />
+                    </Carousel.Slide>
+                  </Carousel>
+                </Modal>
+                <div className='p-5'>
+                  <Group position="center" mt="xs">
+                    <Text weight={400}>Hemodialisa Airborne</Text>
+                  </Group>
+                </div>
+              </Carousel.Slide>
+              <Carousel.Slide>
+                <a ref={ref7} className='relative block group'>
+                  <Image
+                    src={HDReg7}
+                    className='rounded-md drop-shadow-lg object-cover transition ease-in delay-75 group-hover:scale-110 group-hover:opacity-5'
+                    alt='Hemodialisa ICU'
+                    priority />
+                  {hovered7 && <BiSearch className='absolute z-10 top-1/3 left-0 right-0 mr-auto ml-auto text-5xl text-[#1E90FF]' onClick={() => setOpened7(true)} />}
+                </a>
+                <Modal
+                  size='90%'
+                  opened={opened7}
+                  onClose={() => setOpened7(false)}
+                >
+                  <Carousel className={style.carousel} slideSize="70%" slideGap="md" >
+                    <Carousel.Slide>
+                      <Image className={style.image}
+                        src={HDReg7}
+                        width={800}
+                        height={500}
+                        priority
+                        alt="Hemodialisa Isolasi"
+                      />
+                    </Carousel.Slide>
+                  </Carousel>
+                </Modal>
+                <div className='p-5'>
+                  <Group position="center" mt="xs">
+                    <Text weight={400}>Hemodialisa Isolasi</Text>
+                  </Group>
+                </div>
+              </Carousel.Slide>
             </Carousel>
-
-            <p className='text-md mt-3 font-thin'>Kesehatan dan Keselamatan Kerja Harus diperhatikan hal-hal sebagai berikut: Pelaksanaan kewaspadaan universal (universal precaution) yang ketat (pasien, staf, penggunaan alat medik/non medik) merupakan kunci utama dalam pencegahan transmisi. Penataan ruang, aksesibilitas, penerangan dan pemilihan material harus sesuai dengan ketentuan yang mengacu pada patient safety.
-              <br />
-              <br />
-              Dalam rekam medik dicatat diagnosis  medik (berdasarkan ICD X dan ICD 9 CM) untuk pelaporan ke manajemen RSMengirim laporan ke Indonesian Renal  Registry PERNEFRI secara berkala tiap bulan.
-            </p>
           </div>
         </div >
       </div >

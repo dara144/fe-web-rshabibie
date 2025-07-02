@@ -10,7 +10,7 @@ function PelayananBedah() {
   return (
     <>
       <Text className={style.h1}
-      >Pelayanan Bedah</Text>
+      >Instalasi Bedah</Text>
       <main className={style.wrapper}>
         <Border />
         <Grid>
@@ -27,12 +27,25 @@ function PelayananBedah() {
           </Grid.Col>
           <Grid.Col md={12} lg={8} xl={8}>
             <div className={style.h2}>
-              <p className='text-md font-thin'>Pelayanan bedah vaskuler Rumah Sakit Khusus Ginjal Ny. R.A. Habibie merupakan suatu sarana pelayanan terpadu yang meliputi tindakan operatif serta tindakan diagnostik. Pelayanan ini dilayani oleh staff berpengalaman dan professional, terdiri dari Dokter Spesialis, perawat spesialis bersertifikat keahlian khusus serta tenaga non medis.</p>
-              <p className='text-md mt-3 font-thin'>Pelayanan bedah Rumah Sakit Khusus Ginjal Ny. R.A. Habibie meliputi :</p>
-              <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                <List.Item>Operasi AV Shunt</List.Item>
-                <List.Item>Pemasangan Double Lument Catheter</List.Item>
-              </List>
+              <p className='text-md font-thin'>Instalasi Bedah RS Khusus Ginjal Ny. R.A. Habibie merupakan pusat layanan bedah terpadu yang menangani berbagai tindakan pembedahan vaskular, baik elektif maupun emergensi, dengan dukungan tim medis profesional dan fasilitas yang sesuai standar keselamatan pasien.
+                <br />
+                <br />
+                Kami menyediakan layanan bedah dengan pendekatan multidisiplin untuk memastikan hasil terbaik bagi pasien
+                <br />
+                <br />
+                Layanan Unggulan:
+                <ul className='list-disc text-md font-thin mt-3 px-14'>
+                  <li>Operasi AV shunt beserta komplikasinya seperti :</li>
+                  <ul className='list-decimal text-md font-thin px-16'>
+                    <li>Stenosis Vena</li>
+                    <li>Steel Syndrome</li>
+                    <li>Pseudoaneurisma</li>
+                    <li>Infeksi AV Shunt</li>
+                  </ul>
+                  <li>Pemasangan Central Venous Catheter (CVC)</li>
+                  <li>Operasi CAPD</li>
+                </ul>
+              </p>
             </div>
           </Grid.Col>
         </Grid>

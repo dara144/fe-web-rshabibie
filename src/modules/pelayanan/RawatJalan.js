@@ -28,24 +28,6 @@ function RawatJalan() {
                   alt="Rawat Jalan"
                 />
               </div>
-            </Grid.Col>
-            <Grid.Col md={10} lg={7} xl={8}>
-              <p className='text-md font-thin'>Poliklinik Rumah Sakit Khusus Ginjal Ny. R.A. Habibie memberikan pelayanan setiap hari kerja mulai pukul 08.00-17.00, dan  di setiap ruang tunggu pasien di fasilitasi FREE WIFI.
-              </p>
-              <List className='list-none text-md mt-3'>
-                <List.Item>POLIKLINIK <span className='text-[#1E90FF]'>SPESIALIS</span></List.Item>
-                <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                  <List.Item>Penyakit Dalam</List.Item>
-                  <List.Item>Penyakit Paru</List.Item>
-                  <List.Item>Penyakit Ginjal dan Hipertensi (Konsultan)</List.Item>
-                  <List.Item>Bedah Vaskuler (Konsultan) - <i>One Day Surgery</i></List.Item>
-                  <List.Item>Gigi dan Mulut</List.Item>
-                  <List.Item>Ginjal Anak</List.Item>
-                  <List.Item>Urologi</List.Item>
-                </List>
-              </List>
-            </Grid.Col>
-            <Grid.Col md={12} lg={5} xl={4}>
               <div
                 ref={myRef1}
               >
@@ -56,23 +38,34 @@ function RawatJalan() {
               </div>
             </Grid.Col>
             <Grid.Col md={10} lg={7} xl={8}>
-              <List className='list-none text-md mt-3'>
-                <List.Item>POLIKLINIK <span className='text-[#1E90FF]'>CPAD</span></List.Item>
-                <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                  <List.Item>Konsultasi CAPD oleh Dokter terlatih</List.Item>
-                  <List.Item>Training / pelatihan pelaksanaan CAPD untuk pasien</List.Item>
-                  <List.Item>Ganti transfer set</List.Item>
-                  <List.Item>PET, adekuasi CAPD</List.Item>
-                  <List.Item>Pemeriksaan Adekuasi CAPD</List.Item>
-                  <List.Item>Pemasangan kateter CAPD</List.Item>
-                </List>
-                <br />
-                <List.Item>POLIKLINIK <span className='text-[#1E90FF]'>UMUM</span></List.Item>
-                <List className='list-disc text-md mt-3 mb-6 font-[350] text-[#4B3F3F]' withPadding>
-                  <List.Item>Konsultasi dengan Dokter Umum yang bersertifikat Dialisis</List.Item>
-                  <List.Item className='font-[350] text-[#4B3F3F]'>Untuk informasi dan pendaftaran dapat menghubungi no WA : 0813-1323-5789</List.Item>
-                </List>
-              </List>
+              <p className='text-md font-thin'>Poliklinik Rumah Sakit Khusus Ginjal Ny. R.A. Habibie memberikan pelayanan setiap hari kerja mulai pukul 08.00-17.00, dan  di setiap ruang tunggu pasien di fasilitasi FREE WIFI.
+              </p>
+              <p className='text-md px-5 mb-2'>POLIKLINIK <span className='text-[#1E90FF]'> SPESIALIS</span></p>
+              <ul className='list-disc text-md font-thin mt-3 px-14'>
+                <li>Spesialis Penyakit Dalam Konsultan Ginjal Hipertensi</li>
+                <li>Spesialis Penyakit Dalam</li>
+                <li>Spesialis Jantung & Pembuluh Darah</li>
+                <li>Spesialis Paru</li>
+                <li>Spesialis Anak</li>
+                <li>Spesialis Bedah</li>
+                <li>Spesialis Gigi & Mulut</li>
+              </ul>
+              <br />
+              <p className='text-md px-5 mb-2'>POLIKLINIK <span className='text-[#1E90FF]'> UMUM</span></p>
+              <ul className='list-disc text-md font-thin mt-3 px-14'>
+                <li>Konsultasi dengan dokter umum yang bersertifikat Dialisis</li>
+                <li>Untuk informasi dan pendaftaran dapat menghubungi no WA : 0813-1323-5789</li>
+              </ul>
+              <br />
+              <p className='text-md px-5 mb-2'>POLIKLINIK <span className='text-[#1E90FF]'> CAPD</span></p>
+              <ul className='list-disc text-md font-thin mt-3 px-14'>
+                <li>Konsultasi CAPD oleh Dokter terlatih</li>
+                <li>Training / pelatihan pelaksanaan CAPD untuk pasien</li>
+                <li>Ganti transfer set</li>
+                <li>PET, adekuasi CAPD</li>
+                <li>Pemeriksaan Adekuasi CAPD</li>
+                <li>Pemasangan kateter CAPD</li>
+              </ul>
             </Grid.Col>
           </Grid>
         </div>

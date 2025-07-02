@@ -168,6 +168,13 @@ export default function NavBurger() {
                         </ActiveLink>
                       </li>
                       <li className={style.li}>
+                        <ActiveLink activeClassName='text-[#1E90FF]' href='/pelayanan/ICU'>
+                          <a className="hover:text-[#1E90FF] text-[#3f3f3f] font-medium" onClick={onClickOff}>
+                            Intensive Care Unit (ICU)
+                          </a>
+                        </ActiveLink>
+                      </li>
+                      <li className={style.li}>
                         <ActiveLink activeClassName='text-[#1E90FF]' href='/pelayanan/Farmasi'>
                           <a className="hover:text-[#1E90FF] text-[#3f3f3f] font-medium" onClick={onClickOff}>
                             Farmasi

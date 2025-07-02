@@ -12,6 +12,7 @@ import angkatan4 from "../assets/image/Peserta Diklat3.jpg"
 import angkatan5 from "../assets/image/Peserta Diklat4.jpg"
 import angkatan6 from "../assets/image/Peserta Diklat5.jpg"
 import angkatan7 from "../assets/image/Peserta Diklat6.jpg"
+import angkatan8 from "../assets/image/Peserta Diklat7.jpg"
 
 export default function GalleryAngkatan() {
   const { hovered, ref } = useHover();
@@ -94,6 +95,15 @@ export default function GalleryAngkatan() {
             <Carousel.Slide>
               <Image className={style.image}
                 src={angkatan7}
+                width={800}
+                height={500}
+                priority
+                alt="Ruang angkatan"
+              />
+            </Carousel.Slide>
+            <Carousel.Slide>
+              <Image className={style.image}
+                src={angkatan8}
                 width={800}
                 height={500}
                 priority

@@ -12,11 +12,15 @@ function Laboratorium() {
   return (
     <>
       <Text className={style.h1}
-      >Laboratorium</Text>
+      >Instalasi Laboratorium</Text>
       <main className={style.wrapper}>
         <Border />
         <div className={style.h2}>
-          <p className='text-md mt-3 font-thin'>Pelayanan instalasi Laboratorium RS. Khusus Ginjal Ny. R.A Habibie adalah pelayanan rumah sakit bagi pasien rawat jalan dan rawat inap untuk penunjang penegakan diagnosa penyakit oleh para klinisi, agar didapatkan diagnosa yang dapat dipertanggung jawabkan secara medis.</p>
+          <p className='text-md mt-3 font-thin'>Instalasi Laboratorium merupakan unit penunjang medis yang berperan penting dalam membantu proses diagnosis, pemantauan terapi, dan evaluasi kondisi kesehatan pasien secara akurat dan cepat. Laboratorium kami melayani pemeriksaan untuk pasien rawat jalan, rawat inap, IGD, hingga Medical Check Up (MCU), baik pasien penyakit ginjal maupun pasien umum.
+            <br />
+            <br />
+            Didukung oleh tenaga analis laboratorium profesional dan peralatan modern yang terkalibrasi secara berkala, kami menjamin hasil pemeriksaan yang akurat, aman, dan tepat waktu sesuai standar mutu laboratorium klinik rumah sakit.
+          </p>
         </div>
       </main>
       <div className={style.bg}>
@@ -33,18 +37,6 @@ function Laboratorium() {
                     priority
                   />
                 </div>
-              </Grid.Col>
-              <Grid.Col md={12} lg={8.4} xl={9}>
-                <List className='list-none text-md mt-7'>
-                  <List.Item>KONSEP <span className='text-[#1E90FF]'>PELAYANAN LABORATORIUM :</span></List.Item>
-                </List>
-                <p className='text-md mt-3 font-thin'>Instalasi Laboratorium RS. Khusus Ginjal Ny. R.A Habibie adalah wadah uang mengelola pelayanan Laboratorium secara profesional, bermutu serta terjangkau oleh pasien yang meliputi seluruh jenis-jenis pemeriksaan yang diperlukan dalam menunjang pelayanan kesehatan paripurna sesuai kemampuan rumah sakit.
-                  <br />
-                  <br />
-                  Beberapa pemeriksaan rutin khusus pasien Hemodialisa lainnya kami rujuk ke Laboratorium luar yang memang telah melakukan kerjasama dengan RS. Khusus Ginjal Ny. R.A Habibie sebagai upaya untuk melengkapi pemeriksaan penunjang yang tidak bisa dikerjakan di Laboratorium kami.
-                </p>
-              </Grid.Col>
-              <Grid.Col md={12} lg={3.6} xl={3}>
                 <div
                   ref={myRef1}
                 >
@@ -56,26 +48,26 @@ function Laboratorium() {
                 </div>
               </Grid.Col>
               <Grid.Col md={12} lg={8.4} xl={9}>
-                <List className='list-none text-md mt-7'>
-                  <List.Item>PEMERIKSAAN <span className='text-[#1E90FF]'>YANG DILAKUKAN :</span></List.Item>
-                  <List className='list-disc text-md mt-3 font-[350] text-[#4B3F3F]' withPadding>
-                    <List.Item>Hematologi rutin, yang terdiri dari pemeriksaan Hemoglobin, Leukosit, Eritrosit, Hematokrit, Trombosit dan Nilai MC</List.Item>
-                    <List.Item>Kimia Klinik yang terdiri dari pemeriksaan Ureum, Kreatinin, Glukosa dan Asam Urat</List.Item>
-                    <List.Item>Pemeriksaan Elektrolit Serum yang terdiri dari pemeriksaan Kalium, Natrium dan Calsium Ion</List.Item>
-                    <List.Item>Kimia Klinik yang terdiri dari pemeriksaan Ureum, Kreatinin, Glukosa dan Asam Urat</List.Item>
-                    <List.Item>Imunoserologi terdiri dari pemeriksaan HbsAG rapid, anti HIV rapid dan anti HCV rapid yang berfungsi sebagai skrining awal bagi pasien Hemodialisa</List.Item>
-                  </List>
-                </List>
+                <br />
+                <br />
+                <p className='text-md px-5 mb-2'>JENIS PEMERIKSAAN <span className='text-[#1E90FF]'> YANG TERSEDIA:</span></p>
+                <ul className='list-disc text-md font-thin mt-3 px-14'>
+                  <li><b>Hematologi</b> (darah lengkap, hitung jenis, LED, dll.)</li>
+                  <li><b>Urinalisis</b> dan pemeriksaan khusus terkait ginjal</li>
+                  <li><b>Imunologi dan Serologi</b> (tes hepatitis, HIV, hormon, D-Dimer, CRP, dll.)</li>
+                  <li><b>Pemeriksaan Mikroalbuminuria dan Clearance Kreatinin</b></li>
+                  <li>Pemeriksaan lain sesuai permintaan dokter</li>
+                </ul>
+                <p className='text-md mt-3 font-thin'>💡 Hasil pemeriksaan dapat diakses langsung melalui dokter penanggung jawab pasien atau melalui sistem informasi laboratorium untuk kenyamanan dan efisiensi layanan.</p>
+                <br />
+                <p className='text-md px-5 mb-2'>JAM PELAYANAN<span className='text-[#1E90FF]'> LABORATORIUM</span></p>
+                <ul className='list-disc text-md font-thin mt-3 px-14'>
+                  <li><b>Senin - Sabtu</b> : 07.30 - 20.00 WIB</li>
+                  <li><b>Pelayanan 24 jam</b> untuk pasien IGD dan rawat inap</li>
+                </ul>
+                <p className='text-md mt-3 font-thin'>Instalasi Laboratorium kami berkomitmen mendukung pelayanan rumah sakit secara menyeluruh dengan menyediakan data laboratorium yang cepat, valid, dan dapat dipercaya sebagai dasar pengambilan keputusan medis.</p>
               </Grid.Col>
             </Grid>
-            <br />
-            <br />
-            <List className='list-none text-md mt-3 font-[350] text-[#4B3F3F]'>
-              <List.Item>INSTALASI LABORATORIUM</List.Item>
-              <List.Item>RS. Khusus Ginjal Ny. R.A Habibie</List.Item>
-              <List.Item>Jl. Tubagus Ismail no.46, Bandung</List.Item>
-              <List.Item>Telp.(022) 2501985/86 ext.106/133</List.Item>
-            </List>
           </div>
         </div>
       </div>

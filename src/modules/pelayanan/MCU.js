@@ -18,7 +18,7 @@ function MCU() {
           <Border />
         </div>
         <div className={style.h2}>
-          <p className='text-md font-thin px-5'>Instalasi Rawat Jalan RS Khusus Ginjal Ny. R.A. Habibie menyediakan layanan konsultasi dan pemeriksaan oleh dokter umum serta dokter spesialis, baik di bidang penyakit ginjal maupun bidang kesehatan lainnya. Pelayanan dilakukan secara terjadwal dengan sistem pendaftaran yang efisien dan ruang tunggu yang nyaman, untuk menunjang kenyamanan pasien.
+          <p className='text-md font-thin'>Instalasi Rawat Jalan RS Khusus Ginjal Ny. R.A. Habibie menyediakan layanan konsultasi dan pemeriksaan oleh dokter umum serta dokter spesialis, baik di bidang penyakit ginjal maupun bidang kesehatan lainnya. Pelayanan dilakukan secara terjadwal dengan sistem pendaftaran yang efisien dan ruang tunggu yang nyaman, untuk menunjang kenyamanan pasien.
             <br />
             <br />
             Kami melayani pasien <b>BPJS, asuransi,</b> maupun <b>pasien umum,</b> dengan berbagai layanan konsultatif seperti:
@@ -32,10 +32,11 @@ function MCU() {
             <li>Poli Rehabilitasi Medik</li>
             <li>Poli Umum dan penunjang lainnya</li>
           </ul>
-          <p className='text-md font-thin px-5'>Selain layanan konsultasi, kami juga menyediakan layanan <b>Medical Check Up (MCU)</b> yang dirancang untuk membantu deteksi dini berbagai kondisi kesehatan, baik secara individu maupun kolektif (MCU perusahaan). Pemeriksaan dilakukan oleh tim profesional dengan dukungan fasilitas laboratorium dan radiologi lengkap.
+          <br />
+          <p className='text-md font-thin'>Selain layanan konsultasi, kami juga menyediakan layanan <b>Medical Check Up (MCU)</b> yang dirancang untuk membantu deteksi dini berbagai kondisi kesehatan, baik secara individu maupun kolektif (MCU perusahaan). Pemeriksaan dilakukan oleh tim profesional dengan dukungan fasilitas laboratorium dan radiologi lengkap.
             <br />
             <br />
-            <b>Jenis Paket MCU yang Tersedia:</b>
+            <b>JENIS PAKET MCU<span className='text-[#1E90FF]'> YANG TERSEDIA:</span></b>
 
             <ul className='list-disc text-md mt-3 px-14'>
               <li>Paket Ginjal  : Rp 798.000,-</li>
@@ -45,7 +46,7 @@ function MCU() {
               <li>Paket Sekolah </li>
             </ul>
             <br />
-            <b>Jam Pelayanan Rawat Jalan & MCU:</b>
+            <b>JAM PELAYANAN<span className='text-[#1E90FF]'> RAWAT JALAN & MCU:</span></b>
             <ul className='list-disc text-md font-thin mt-3 px-14'>
               <li><b>Senin - Jumat:</b> 08.00 - 15.00 WIB</li>
               <li><b>Sabtu:</b> 08.00 - 12.00 WIB</li>

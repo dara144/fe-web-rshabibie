@@ -54,6 +54,9 @@ export default function NavMenu() {
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/pelayanan/Laboratorium'>
             <Menu.Item component='a'>Laboratorium</Menu.Item>
           </ActiveLink>
+          <ActiveLink activeClassName={'text-[#1E90FF]'} href='/pelayanan/ICU'>
+            <Menu.Item component='a'>Intensive Care Unit (ICU)</Menu.Item>
+          </ActiveLink>
           <ActiveLink activeClassName={'text-[#1E90FF]'} href='/pelayanan/Farmasi'>
             <Menu.Item component='a'>Farmasi</Menu.Item>
           </ActiveLink>

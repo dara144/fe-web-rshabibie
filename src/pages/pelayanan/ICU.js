@@ -1,20 +1,20 @@
 import Head from 'next/head'
 import Nav from '@layout/Nav'
-import PoliUmum from '@modules/pelayanan/PoliUmum'
+import ICU from '@modules/pelayanan/ICU'
 
-export default function PoliUmumPage() {
+export default function ICUPage() {
   return (
     <>
       <Head>
-        <title>Poli Umum</title>
+        <title>ICU</title>
         <meta name='description' content='website RSKG' />
         <link rel='icon' href='/logo.png' />
       </Head>
-      <PoliUmum />
+      <ICU />
     </>
   )
 }
-PoliUmumPage.getLayout = page => (
+ICUPage.getLayout = page => (
   <Nav>
     <div className='absolute w-full'>
       {page}
